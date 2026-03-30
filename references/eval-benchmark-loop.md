@@ -30,6 +30,10 @@ Recommended structure:
 
 `company-industry-research-writer-workspace/iteration-N/<eval-name>/`
 
+To bootstrap this structure locally, use:
+
+`scripts/scaffold-benchmark-workspace.ps1`
+
 Inside each eval:
 
 - `eval_metadata.json`

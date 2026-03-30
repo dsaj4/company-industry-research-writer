@@ -26,6 +26,7 @@ This workspace is intentionally local-first. We improve it here before installin
 - `materials/`: local raw inputs such as PDFs; raw PDFs stay local and are not tracked
 - `evals/`: prompt-level test cases for benchmark runs
 - `evals/cases/`: file-backed evaluation fixtures
+- `scripts/`: reusable helpers such as benchmark-workspace scaffolding
 - `runs/`: saved run artifacts and upgrade notes
 
 ## Current source base

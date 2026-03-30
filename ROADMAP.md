@@ -92,7 +92,7 @@ Exit condition:
 
 Possible later additions:
 
-- script to scaffold a new run folder
+- script to scaffold a benchmark workspace
 - script to compare draft and final versions
 - script to summarize upgrade notes across runs
 
