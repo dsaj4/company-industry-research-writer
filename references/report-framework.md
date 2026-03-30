@@ -1,179 +1,184 @@
-# Report Framework
+# 报告框架
 
-This reference defines the default analytical shape of a company or industry research report.
+这份 reference 定义公司研究或行业研究报告的默认分析骨架。
 
-## First principle
+## 第一原则
 
-Do not build the report around the order in which materials were collected. Build it around the order in which the reader needs questions answered.
+不要按照“材料被收集到的顺序”来组织报告。
 
-## Standard chapter structure
+要按照“读者为了形成判断，必须依次回答哪些问题”来组织报告。
 
-## Benchmark-backed report rhythm
+## Benchmark 支撑下的默认章节节奏
 
-The first benchmark sample in this workspace reinforces a useful default rhythm:
+当前 benchmark 样本共同强化了一套很实用的默认节奏：
 
-1. title page with high-density conclusions
-2. table of contents
-3. figure or table planning layer
-4. company overview
-5. industry analysis
-6. company highlights
-7. commercialization, financial logic, or valuation discussion
-8. risks
+1. 首页与高密度核心结论
+2. 目录
+3. 图表或表格规划层
+4. 公司概况
+5. 行业分析
+6. 公司亮点或竞争位置
+7. 商业化、财务逻辑与估值讨论
+8. 风险
 
-Not every final deliverable must expose all of these sections explicitly, but the underlying analytical order is worth preserving.
+不是每一次最终交付都必须把这些部分全部显式展开，但其背后的分析顺序值得保留。
 
-### 1. Title page
+## 1. 首页
 
-Purpose:
+### 作用
 
-- identify the subject
-- state the angle of analysis
-- preview the report's center of gravity
+- 说明研究对象
+- 说明分析角度
+- 提前暴露整篇报告的重心
 
-Good output:
+### 好的输出应包含
 
-- one clear title
-- optional subtitle
-- three to four core conclusions
-- enough density that the reader understands the center of gravity before the body starts
+- 一个清晰标题
+- 一个可选副标题
+- 三到四条核心结论
+- 足够高的信息密度，让读者在进入正文前就知道报告重心在哪里
 
-### 2. Core conclusions
+## 2. 核心结论
 
-Purpose:
+### 作用
 
-- tell the reader why this subject matters
-- lock the report's main thesis before details begin
+- 先告诉读者为什么值得看
+- 在展开细节前锁定整篇报告的 thesis
 
-Questions answered:
+### 需要回答的问题
 
-- what is the central judgment
-- what three to four points support it
-- what kind of evidence the report relies on
+- 核心判断是什么
+- 支撑它的三到四个关键点是什么
+- 报告主要依赖哪些证据类别
 
-## Optional planning layers that strong benchmarks often use
+## 强 benchmark 常见的辅助规划层
 
-These are not mandatory user-facing sections, but they often improve report quality:
+这些不一定都要成为用户可见章节，但往往能显著提高报告质量：
 
-- table of contents for chapter discipline
-- figure and table index for evidence planning
-- summary financial or business snapshot on the first page when appropriate
+- 目录：帮助维持章节纪律
+- 图表/表格索引：帮助提前做证据规划
+- 首页摘要型财务或业务快照：仅在任务真的需要时使用
 
-Treat these as planning tools, not decorative extras.
+把它们当成规划工具，而不是装饰层。
 
-### 3. Company overview
+## 3. 公司概况
 
-Purpose:
+### 作用
 
-- establish who the company is
-- explain its stage, timeline, team, and product base
+- 建立“这家公司到底是什么”的基本认知
+- 说明其所处阶段、发展脉络、团队基础和产品基础
 
-Common submodules:
+### 常见子模块
 
-- development timeline
-- team and organization
-- product matrix
-- company-stage judgment
+- 发展时间线
+- 团队与组织
+- 产品矩阵
+- 公司阶段判断
 
-### 4. Industry analysis
+## 4. 行业分析
 
-Purpose:
+### 作用
 
-- explain whether the sector is worth attention
-- place the company inside a broader structure
+- 说明这个赛道是否值得关注
+- 解释公司处在怎样的外部结构里
 
-Common submodules:
+### 常见子模块
 
-- technology or market shift
-- market demand or adoption
-- competitive landscape
-- positioning of the target company
+- 技术或市场变化
+- 需求与渗透
+- 竞争格局
+- 目标公司所处位置
 
-### 5. Company highlights or competitive position
+## 5. 公司亮点或竞争位置
 
-Purpose:
+### 作用
 
-- answer why this company is notable relative to peers
-- identify its most important strengths, wedges, or differentiators
+- 回答“这家公司相比 peers 为什么值得看”
+- 找出它最重要的强项、楔子或差异化来源
 
-Common submodules:
+### 常见子模块
 
-- product differentiation
-- ecosystem traction
-- developer or enterprise signals
-- business model leverage
+- 产品差异化
+- 生态进展
+- 开发者或企业侧信号
+- 商业模式杠杆
 
-### 6. Commercialization, financial clues, and valuation discussion
+## 6. 商业化、财务线索与估值讨论
 
-Purpose:
+### 作用
 
-- connect qualitative strengths to economics or capital-market implications
+- 把定性优势连接到经济含义或资本市场含义
 
-For AI-company deep dives, a strong benchmark often uses this bridge:
+对于 AI 公司深度研究，一个强 benchmark 常见的桥接顺序是：
 
-1. capability
-2. productization
-3. commercialization
-4. economic or valuation implication
+1. 能力
+2. 产品化
+3. 商业化
+4. 经济或估值含义
 
-This bridge is often more important than the exact valuation method used in the benchmark.
+很多时候，这个桥接顺序比具体用了哪一种估值方法更重要。
 
-For listed companies, this may include disclosed financials and valuation frameworks.
+### 上市公司任务中常见内容
 
-For private companies, emphasize:
+- 已披露财务数据
+- 分业务预测
+- 估值框架
 
-- completed financing valuation
-- target valuation
-- rumored valuation
-- revenue clues
-- pricing tables
-- traffic, usage, and ecosystem proxies
+### 非上市公司任务中应强调的内容
 
-Do not collapse these into one category.
+- 已完成融资估值
+- 目标估值
+- 传闻估值
+- 收入线索
+- 定价表
+- 流量、使用、生态等 proxy
 
-### 7. Risks
+不要把这些压成一个模糊的“估值信息”。
 
-Purpose:
+## 7. 风险
 
-- show where the thesis can fail
-- make the report feel disciplined rather than promotional
-- close the loop on the full report instead of feeling tacked on
+### 作用
 
-Common risk types:
+- 明确 thesis 会在哪里失效
+- 让整篇报告显得克制而不是宣传
+- 把整份报告收住，而不是像附加条款
 
-- product risk
-- competitive risk
-- commercialization risk
-- execution risk
-- data or evidence limitation
+### 常见风险类型
 
-## Chapter writing pattern
+- 产品风险
+- 竞争风险
+- 商业化风险
+- 执行风险
+- 数据或证据局限
 
-Each chapter should follow:
+## 章节写作模式
 
-1. chapter judgment
-2. mechanism or framing
-3. evidence block
-4. implication
+每一章默认按以下顺序推进：
 
-## Paragraph writing pattern
+1. 本章判断
+2. 机制或框架
+3. 证据块
+4. 含义
 
-Each paragraph should usually answer:
+## 段落写作模式
 
-1. what is the judgment
-2. why might it be true
-3. what evidence supports it
-4. why does it matter
+每一段尽量回答四个问题：
 
-## Benchmark migration rule
+1. 这一段的判断是什么
+2. 为什么它可能成立
+3. 什么证据支持它
+4. 这件事为什么重要
 
-If a sample report is being imitated:
+## Benchmark 迁移规则
 
-- copy the problem-solving structure
-- do not copy sample-company numbers, business splits, or valuation logic without re-grounding them in the new target
+如果正在模仿一个样本研报：
 
-If the benchmark is a listed-equity report:
+- 可以迁移它的问题拆解方式
+- 可以迁移它的章节顺序和证据密度
+- 不能直接迁移样本公司的数字、业务拆分和估值逻辑
 
-- keep its structural sequence if useful
-- keep its evidence density if useful
-- do not automatically inherit its stock-rating language, target-value logic, or financial-statement machinery
+如果 benchmark 是上市公司研报：
+
+- 可以保留它的结构顺序
+- 可以保留它的证据密度
+- 但不要自动继承它的评级语言、目标价值逻辑和完整财务报表机器
