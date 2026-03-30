@@ -18,6 +18,7 @@ Read only what is needed for the current task:
   - `references/research-trigger.md`
   - `references/report-framework.md`
   - `references/writing-style.md`
+  - `references/style-signatures.md`
   - `references/summary-and-opening.md`
   - `references/evidence-financial-rules.md`
   - `references/quality-scorecard.md`
@@ -26,11 +27,13 @@ Read only what is needed for the current task:
   - `references/workflow-overview.md`
   - `references/quality-scorecard.md`
   - `references/evidence-financial-rules.md`
+  - `references/style-signatures.md`
   - `references/iteration-and-orchestration.md`
 - Rewrite one chapter or section from zero:
   - `references/input-contract.md`
   - `references/report-framework.md`
   - `references/writing-style.md`
+  - `references/style-signatures.md`
   - `references/summary-and-opening.md`
   - `references/evidence-financial-rules.md`
   - `references/iteration-and-orchestration.md`
@@ -146,6 +149,8 @@ Use `references/summary-and-opening.md` for:
 - chapter openers
 - dense concept translation
 
+When prose finish matters, load one matching file under `assets/style-samples/` so the draft inherits real report moves instead of generic "professional tone."
+
 ### Step 6: Review with dual gates first
 
 Before detailed scoring, answer:
@@ -205,3 +210,4 @@ Unless the user asks for something else, aim to save:
 - Prefer explicit uncertainty over fake completeness.
 - Prefer source-linked claims over smooth but unsupported prose.
 - Prefer reusable process notes over one-off taste changes when upgrading the skill.
+- Prefer real benchmark-derived writing moves over abstract style adjectives.

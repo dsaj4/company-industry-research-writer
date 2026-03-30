@@ -65,6 +65,12 @@ Current status:
   - `assets/benchmark-results/2026-03-30-report-start-package-iteration-2.md`
   - `assets/benchmark-results/2026-03-30-benchmark-family-selection-iteration-2.md`
   - both moved from `5/5 vs 5/5` to `6/6 vs 4/6`
+- first style-asset layer added from current GF report pages:
+  - `references/style-signatures.md`
+  - `assets/style-samples/gf-front-page-and-core-points.md`
+  - `assets/style-samples/gf-chapter-opening-patterns.md`
+  - `assets/style-samples/gf-argument-density-patterns.md`
+  - `assets/style-samples/gf-risk-writing-patterns.md`
 
 Exit condition:
 
@@ -78,6 +84,7 @@ Priority:
 2. standardize `09_upgrade_notes.md`
 3. promote recurring edits into references
 4. add regression evals for major recurring misses
+5. add style-focused evals for executive summary and chapter opener quality
 
 Exit condition:
 

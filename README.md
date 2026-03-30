@@ -9,6 +9,11 @@ It is designed for two loops that reinforce each other:
 
 This workspace is intentionally local-first. We improve it here before installing it into a global skills directory.
 
+The skill now has two preservation layers:
+
+1. analysis layer: thesis, chapter logic, evidence responsibility, valuation wording
+2. style layer: opening density, chapter-opening pattern, argument compression, and risk-writing pattern distilled from current reports
+
 ## Directory map
 
 - `SKILL.md`: main skill entrypoint
@@ -16,12 +21,14 @@ This workspace is intentionally local-first. We improve it here before installin
 - `references/input-contract.md`: how to stabilize the brief at run start
 - `references/research-trigger.md`: when deeper research is required
 - `references/summary-and-opening.md`: how to write strong openings and executive summaries
+- `references/style-signatures.md`: benchmark-derived writing signatures from current broker reports
 - `references/eval-benchmark-loop.md`: how to benchmark the skill against a baseline
 - `references/benchmark-archetypes.md`: how to choose the right benchmark family when multiple samples exist
 - `references/external-skill-borrow-map.md`: what to borrow from external skills and where to integrate it
 - `references/external-skill-vetting.md`: safety and fit notes for external skills
 - `assets/`: curated examples and future diff pairs
 - `assets/benchmark-samples/`: distilled notes from benchmark reports
+- `assets/style-samples/`: derived writing-pattern anchors from current research reports
 - `assets/external-skill-notes/`: paraphrased notes from external and local meta skills
 - `materials/`: local raw inputs such as PDFs; raw PDFs stay local and are not tracked
 - `evals/`: prompt-level test cases for benchmark runs

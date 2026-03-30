@@ -13,6 +13,7 @@ Use `assets/` for curated examples, not for dumping every report.
 
 - `benchmark-samples/`
 - `benchmark-results/`
+- `style-samples/`
 - `chapter-pairs/`
 - `style-anchors/`
 - `figure-anchors/`
