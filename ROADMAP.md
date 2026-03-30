@@ -56,6 +56,8 @@ Current status:
   - `assets/benchmark-results/2026-03-30-draft-diagnosis-and-red-lines-iteration-1.md`
 - third executed benchmark summary added:
   - `assets/benchmark-results/2026-03-30-chapter-rewrite-from-evidence-iteration-1.md`
+- fourth executed benchmark summary added:
+  - `assets/benchmark-results/2026-03-30-benchmark-family-selection-iteration-1.md`
 
 Exit condition:
 
