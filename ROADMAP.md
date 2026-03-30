@@ -50,6 +50,8 @@ Current status:
   - `references/grading-conventions.md`
 - grading scaffold added:
   - `evals/templates/grading-template.json`
+- first executed benchmark summary added:
+  - `assets/benchmark-results/2026-03-30-report-start-package-iteration-1.md`
 
 Exit condition:
 

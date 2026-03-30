@@ -12,6 +12,7 @@ Use `assets/` for curated examples, not for dumping every report.
 ## Suggested subfolders
 
 - `benchmark-samples/`
+- `benchmark-results/`
 - `chapter-pairs/`
 - `style-anchors/`
 - `figure-anchors/`
