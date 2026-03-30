@@ -14,6 +14,7 @@ Read only what is needed for the current task:
 - New report from materials:
   - `references/input-contract.md`
   - `references/workflow-overview.md`
+  - `references/benchmark-archetypes.md`
   - `references/research-trigger.md`
   - `references/report-framework.md`
   - `references/writing-style.md`
@@ -80,6 +81,8 @@ Before drafting, write two short lists:
 - Five things that must remain different so this is a genuinely new report
 
 This prevents shell-copy drift.
+
+If multiple benchmark samples are available, choose the primary benchmark using `references/benchmark-archetypes.md`.
 
 ### Step 2: Define the thesis and chapter question tree
 

@@ -17,6 +17,7 @@ This workspace is intentionally local-first. We improve it here before installin
 - `references/research-trigger.md`: when deeper research is required
 - `references/summary-and-opening.md`: how to write strong openings and executive summaries
 - `references/eval-benchmark-loop.md`: how to benchmark the skill against a baseline
+- `references/benchmark-archetypes.md`: how to choose the right benchmark family when multiple samples exist
 - `references/external-skill-borrow-map.md`: what to borrow from external skills and where to integrate it
 - `references/external-skill-vetting.md`: safety and fit notes for external skills
 - `assets/`: curated examples and future diff pairs

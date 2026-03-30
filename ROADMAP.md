@@ -29,6 +29,10 @@ Current status:
   - `assets/benchmark-samples/fourth-paradigm-decision-intelligence-2024-12-03.md`
 - second benchmark seed run added:
   - `runs/20260330-094538_fourth-paradigm-benchmark-seed/`
+- first benchmark-cluster synthesis added:
+  - `assets/benchmark-samples/ai-company-benchmark-cluster-v1.md`
+- benchmark-selection reference added:
+  - `references/benchmark-archetypes.md`
 - first file-backed eval cases added:
   - `evals/cases/private-ai-outline-brief.md`
   - `evals/cases/private-ai-draft-with-benchmark-leakage.md`
