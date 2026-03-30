@@ -16,3 +16,8 @@ Each benchmark note should answer:
 2. what to imitate
 3. what not to copy
 4. where the important sections live
+
+## Current benchmark set
+
+- `minimax-born-global-2026-02-10.md`
+- `fourth-paradigm-decision-intelligence-2024-12-03.md`
