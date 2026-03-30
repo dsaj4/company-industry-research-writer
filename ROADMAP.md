@@ -19,6 +19,13 @@ Priority:
 4. draft qualitative and quantitative grading assertions
 5. use `references/eval-benchmark-loop.md` to formalize baseline comparisons
 
+Current status:
+
+- first benchmark sample added:
+  - `assets/benchmark-samples/minimax-born-global-2026-02-10.md`
+- first benchmark seed run added:
+  - `runs/20260330-093620_minimax-benchmark-seed/`
+
 Exit condition:
 
 - skill can be compared against a baseline on real report tasks

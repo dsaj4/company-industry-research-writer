@@ -20,7 +20,9 @@ This workspace is intentionally local-first. We improve it here before installin
 - `references/external-skill-borrow-map.md`: what to borrow from external skills and where to integrate it
 - `references/external-skill-vetting.md`: safety and fit notes for external skills
 - `assets/`: curated examples and future diff pairs
+- `assets/benchmark-samples/`: distilled notes from benchmark reports
 - `assets/external-skill-notes/`: paraphrased notes from external and local meta skills
+- `materials/`: local raw inputs such as PDFs; raw PDFs stay local and are not tracked
 - `evals/`: prompt-level test cases for benchmark runs
 - `runs/`: saved run artifacts and upgrade notes
 
