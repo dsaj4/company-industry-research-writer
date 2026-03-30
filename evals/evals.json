@@ -5,17 +5,18 @@
       "id": 1,
       "eval_name": "report-start-package",
       "prompt": "Use the attached benchmark note and target brief to produce a report-start package. First calibrate what to imitate versus what must remain different, then write the central thesis, chapter question tree, and a formal outline with figure responsibilities. Do not turn the result into a stock-rating report.",
-      "expected_output": "The output should explicitly perform benchmark calibration, declare the company type, avoid listed-equity leakage, and produce a thesis plus chaptered outline rather than jumping straight into prose.",
+      "expected_output": "The output should behave like a reusable run start rather than a one-shot answer: capture the startup summary, make a research-trigger judgment, perform benchmark calibration, declare the company type, avoid listed-equity leakage, and produce a thesis plus chaptered outline.",
       "files": [
         "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
         "evals/cases/private-ai-outline-brief.md"
       ],
       "expectations": [
+        "Starts with a startup summary that states task type, audience, benchmark mode, company type, source-pack status, and whether deeper research is triggered.",
         "Explicitly names a primary benchmark and separates imitate-versus-different items before outlining.",
-        "States the target company type or report archetype in the start package.",
-        "Provides one central thesis plus a chapter-level question tree.",
-        "Assigns evidence or figure responsibilities at chapter level.",
-        "Avoids stock rating, target price, and listed-equity valuation wording."
+        "Makes an explicit research-trigger judgment tied to unstable valuation, revenue, traffic, or product-position claims rather than giving only generic caution.",
+        "Provides one central thesis plus a three-to-six-question chapter tree.",
+        "Assigns chapter-specific evidence or figure jobs rather than generic placeholder bullets.",
+        "Frames the deliverable as private-company research rather than a stock call and avoids stock rating, target price, and listed-equity valuation wording."
       ]
     },
     {
@@ -56,7 +57,7 @@
       "id": 4,
       "eval_name": "benchmark-family-selection",
       "prompt": "Use the attached benchmark cluster and both benchmark notes to select the correct benchmark family for the target brief. State the primary benchmark, explain why it fits the company archetype, optionally name one secondary pattern to borrow, and list what must not be transferred. Then write the calibration note that would go into `01_calibration.md`.",
-      "expected_output": "The output should explicitly choose a primary benchmark based on archetype fit, not on personal preference, and should constrain any secondary borrowing instead of blending both benchmark systems into one outline.",
+      "expected_output": "The output should explicitly choose a primary benchmark based on archetype fit, explain why the non-primary benchmark is not the main fit, constrain any secondary borrowing to a narrow scope, prohibit blending chapter systems, and end with a copy-ready calibration note.",
       "files": [
         "assets/benchmark-samples/ai-company-benchmark-cluster-v1.md",
         "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
@@ -65,10 +66,11 @@
       ],
       "expectations": [
         "Chooses one explicit primary benchmark family.",
-        "Justifies the choice using company archetype fit rather than stylistic preference.",
-        "Names at most one secondary borrowing pattern and limits its scope.",
-        "Lists what must not transfer from the non-primary benchmark.",
-        "Produces a calibration note that can be copied into 01_calibration.md."
+        "Justifies the choice using concrete company-archetype fit criteria rather than stylistic preference.",
+        "Explains why the non-primary benchmark should not be the primary template for this target.",
+        "Names at most one secondary borrowing pattern and states its exact scope rather than borrowing a whole chapter system.",
+        "Explicitly prohibits blending the two benchmark chapter systems into one mixed outline.",
+        "Produces a calibration note that can be copied into 01_calibration.md with primary benchmark, rationale, scoped borrowing, and non-transfer sections."
       ]
     }
   ]

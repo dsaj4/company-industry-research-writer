@@ -2,40 +2,47 @@
   "eval_id": 1,
   "eval_name": "report-start-package",
   "prompt": "Use the attached benchmark note and target brief to produce a report-start package. First calibrate what to imitate versus what must remain different, then write the central thesis, chapter question tree, and a formal outline with figure responsibilities. Do not turn the result into a stock-rating report.",
-  "expected_output": "The output should explicitly perform benchmark calibration, declare the company type, avoid listed-equity leakage, and produce a thesis plus chaptered outline rather than jumping straight into prose.",
+  "expected_output": "The output should behave like a reusable run start rather than a one-shot answer: capture the startup summary, make a research-trigger judgment, perform benchmark calibration, declare the company type, avoid listed-equity leakage, and produce a thesis plus chaptered outline.",
   "source_files": [
     "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
     "evals/cases/private-ai-outline-brief.md"
   ],
   "assertions": [
     {
+      "text": "Starts with a startup summary that states task type, audience, benchmark mode, company type, source-pack status, and whether deeper research is triggered.",
+      "grading_hint": "Passing requires all six startup items, not just a partial header or a generic context line."
+    },
+    {
       "text": "Explicitly names a primary benchmark and separates imitate-versus-different items before outlining.",
       "grading_hint": "Look for a calibration block or equivalent that lists what to imitate and what must remain different."
     },
     {
-      "text": "States the target company type or report archetype in the start package.",
-      "grading_hint": "The output should classify the target company, not leave the report type implicit."
+      "text": "Makes an explicit research-trigger judgment tied to unstable valuation, revenue, traffic, or product-position claims rather than giving only generic caution.",
+      "grading_hint": "Fail if the output only says research may be useful. It should say whether deeper research is triggered and why."
     },
     {
-      "text": "Provides one central thesis plus a chapter-level question tree.",
-      "grading_hint": "Passing requires both a thesis and chapter questions or their equivalent."
+      "text": "Provides one central thesis plus a three-to-six-question chapter tree.",
+      "grading_hint": "Passing requires one thesis and between three and six chapter-level questions or their equivalent."
     },
     {
-      "text": "Assigns evidence or figure responsibilities at chapter level.",
-      "grading_hint": "Each major chapter should have evidence jobs, figure anchors, or comparable proof-planning detail."
+      "text": "Assigns chapter-specific evidence or figure jobs rather than generic placeholder bullets.",
+      "grading_hint": "Passing outputs should tie figures or evidence plans to specific chapter jobs, not just say 'add charts' or 'include visuals'."
     },
     {
-      "text": "Avoids stock rating, target price, and listed-equity valuation wording.",
-      "grading_hint": "Fail if the output turns the task into a buy/add/target-price style report."
+      "text": "Frames the deliverable as private-company research rather than a stock call and avoids stock rating, target price, and listed-equity valuation wording.",
+      "grading_hint": "Fail if the output drifts into public-equity recommendation language or fails to mark the private-company boundary."
     }
   ],
   "human_review_gates": [
     "Does the start package feel structurally close to the benchmark without copying its shell?",
-    "Would this package let a later drafting step produce a genuinely new report?"
+    "Would this package let a later drafting step produce a genuinely new report?",
+    "Does the start package look reusable as a run artifact rather than only as a one-shot answer?"
   ],
   "failure_mode_watchlist": [
     "benchmark shell copy",
+    "missing startup summary",
     "no explicit calibration",
+    "no research-trigger judgment",
     "outline without thesis",
     "listed-equity leakage"
   ]

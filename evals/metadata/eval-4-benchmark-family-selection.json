@@ -2,7 +2,7 @@
   "eval_id": 4,
   "eval_name": "benchmark-family-selection",
   "prompt": "Use the attached benchmark cluster and both benchmark notes to select the correct benchmark family for the target brief. State the primary benchmark, explain why it fits the company archetype, optionally name one secondary pattern to borrow, and list what must not be transferred. Then write the calibration note that would go into `01_calibration.md`.",
-  "expected_output": "The output should explicitly choose a primary benchmark based on archetype fit, not on personal preference, and should constrain any secondary borrowing instead of blending both benchmark systems into one outline.",
+  "expected_output": "The output should explicitly choose a primary benchmark based on archetype fit, explain why the non-primary benchmark is not the main fit, constrain any secondary borrowing to a narrow scope, prohibit blending chapter systems, and end with a copy-ready calibration note.",
   "source_files": [
     "assets/benchmark-samples/ai-company-benchmark-cluster-v1.md",
     "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
@@ -15,30 +15,37 @@
       "grading_hint": "Fail if the answer hedges between two equal primaries or refuses to choose."
     },
     {
-      "text": "Justifies the choice using company archetype fit rather than stylistic preference.",
-      "grading_hint": "The reasoning should cite business model, product shape, commercialization logic, or similar fit criteria."
+      "text": "Justifies the choice using concrete company-archetype fit criteria rather than stylistic preference.",
+      "grading_hint": "Passing outputs should cite multiple concrete fit criteria such as platform-led model, customer strategy, workflow shape, or solution architecture."
     },
     {
-      "text": "Names at most one secondary borrowing pattern and limits its scope.",
-      "grading_hint": "Passing outputs borrow narrowly and explain where the borrowing stops."
+      "text": "Explains why the non-primary benchmark should not be the primary template for this target.",
+      "grading_hint": "Fail if the output only praises the primary benchmark without explicitly rejecting the non-primary as the main fit."
     },
     {
-      "text": "Lists what must not transfer from the non-primary benchmark.",
-      "grading_hint": "Look for explicit non-transfer boundaries, not vague cautions."
+      "text": "Names at most one secondary borrowing pattern and states its exact scope rather than borrowing a whole chapter system.",
+      "grading_hint": "Passing outputs should say exactly what is borrowed and where it stops."
     },
     {
-      "text": "Produces a calibration note that can be copied into 01_calibration.md.",
-      "grading_hint": "The final section should read like a reusable run artifact, not just an explanation paragraph."
+      "text": "Explicitly prohibits blending the two benchmark chapter systems into one mixed outline.",
+      "grading_hint": "Look for a direct anti-blend statement, not only a vague caution to stay disciplined."
+    },
+    {
+      "text": "Produces a calibration note that can be copied into 01_calibration.md with primary benchmark, rationale, scoped borrowing, and non-transfer sections.",
+      "grading_hint": "The final section should read like a reusable run artifact with those named parts, not just an explanation paragraph."
     }
   ],
   "human_review_gates": [
     "Does the benchmark choice feel analytically grounded and stable?",
-    "Would this calibration note help prevent mixed-shell outlines in a real run?"
+    "Would this calibration note help prevent mixed-shell outlines in a real run?",
+    "Does the note make it hard for a later drafting step to drift into a hybrid benchmark shell?"
   ],
   "failure_mode_watchlist": [
     "no primary benchmark choice",
     "style-based benchmark selection",
+    "no explicit rejection of non-primary benchmark",
     "over-borrowing from secondary sample",
+    "mixed-shell chapter blending",
     "missing non-transfer boundaries"
   ]
 }

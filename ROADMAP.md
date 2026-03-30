@@ -56,6 +56,9 @@ Current status:
   - `assets/benchmark-results/2026-03-30-draft-diagnosis-and-red-lines-iteration-1.md`
 - third executed benchmark summary added:
   - `assets/benchmark-results/2026-03-30-chapter-rewrite-from-evidence-iteration-1.md`
+- eval 1 and eval 4 assertions tightened after first benchmark pass:
+  - stronger startup-summary and research-trigger requirements
+  - stronger non-primary rejection and anti-blend requirements
 - fourth executed benchmark summary added:
   - `assets/benchmark-results/2026-03-30-benchmark-family-selection-iteration-1.md`
 
