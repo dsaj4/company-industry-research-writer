@@ -24,6 +24,7 @@ This workspace is intentionally local-first. We improve it here before installin
 - `assets/external-skill-notes/`: paraphrased notes from external and local meta skills
 - `materials/`: local raw inputs such as PDFs; raw PDFs stay local and are not tracked
 - `evals/`: prompt-level test cases for benchmark runs
+- `evals/cases/`: file-backed evaluation fixtures
 - `runs/`: saved run artifacts and upgrade notes
 
 ## Current source base

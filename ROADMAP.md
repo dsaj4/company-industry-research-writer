@@ -25,6 +25,10 @@ Current status:
   - `assets/benchmark-samples/minimax-born-global-2026-02-10.md`
 - first benchmark seed run added:
   - `runs/20260330-093620_minimax-benchmark-seed/`
+- first file-backed eval cases added:
+  - `evals/cases/private-ai-outline-brief.md`
+  - `evals/cases/private-ai-draft-with-benchmark-leakage.md`
+  - `evals/cases/company-highlights-rewrite-pack.md`
 
 Exit condition:
 
