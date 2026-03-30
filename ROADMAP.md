@@ -52,6 +52,8 @@ Current status:
   - `evals/templates/grading-template.json`
 - first executed benchmark summary added:
   - `assets/benchmark-results/2026-03-30-report-start-package-iteration-1.md`
+- second executed benchmark summary added:
+  - `assets/benchmark-results/2026-03-30-draft-diagnosis-and-red-lines-iteration-1.md`
 
 Exit condition:
 
