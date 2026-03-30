@@ -27,6 +27,8 @@ Before grading, read:
 
 Use the `assertions[].text` strings from `eval_metadata.json` as the source of truth for `grading.json`.
 
+If you need a starter file, copy `evals/templates/grading-template.json` from the skill repository into the run folder first.
+
 ## Required `grading.json` structure
 
 Use this shape:
@@ -64,6 +66,10 @@ Use this shape:
 The viewer depends on `expectations[].text`, `expectations[].passed`, and `expectations[].evidence`.
 
 Keep those field names exact.
+
+The template file at `evals/templates/grading-template.json` is only a scaffold.
+
+Before finalizing a run, replace all placeholder strings.
 
 ## Evidence standard
 

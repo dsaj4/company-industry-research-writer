@@ -48,6 +48,8 @@ Current status:
   - `evals/metadata/eval-4-benchmark-family-selection.json`
 - grader convention reference added:
   - `references/grading-conventions.md`
+- grading scaffold added:
+  - `evals/templates/grading-template.json`
 
 Exit condition:
 

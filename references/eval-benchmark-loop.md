@@ -46,6 +46,7 @@ Inside the skill repository:
 
 - `evals/evals.json` should carry the prompt, source files, and benchmark-facing expectations
 - `evals/metadata/*.json` should carry richer assertions, grading hints, and human review gates
+- `evals/templates/grading-template.json` should provide the starter shape for each run's `grading.json`
 
 Keep the expectation text stable across these files so grading stays comparable over time.
 
