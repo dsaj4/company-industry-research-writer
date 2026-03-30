@@ -1,155 +1,155 @@
-# Quality Scorecard
+# 质量评分卡
 
-Use this reference to evaluate a draft before polishing it.
+这份 reference 用于在做句子级润色之前，先判断一份草稿是否已经具备“值得继续打磨”的基础。
 
-## Dual-gate review first
+## 先过双门槛
 
-Before scoring anything, answer:
+在正式打分前，先回答两个问题。
 
-### Gate A: Is this close to benchmark quality?
+### Gate A：是否接近 benchmark 水平？
 
-Check:
+检查：
 
-- structural completeness
-- front-page or opening-page judgment density
-- chapter finish
-- evidence density
-- figure or table planning discipline
-- maturity of expression
+- 结构是否完整
+- 首页或开篇的判断密度是否足够
+- 章节完成度是否在线
+- 证据密度是否够
+- 图表或表格规划是否有纪律
+- 表达是否已经达到成熟研究稿水平
 
-### Gate B: Is this clearly a new report?
+### Gate B：是否明确是一份新报告？
 
-Check:
+检查：
 
-- independent thesis
-- subject-specific question framing
-- no obvious benchmark-shell transfer
-- evidence belongs to the target, not just to the sample
+- 是否有独立 thesis
+- 问题设置是否真正围绕当前对象
+- 是否存在明显 benchmark 套壳
+- 证据是否属于当前对象，而不是只是属于样本公司
 
-If either gate clearly fails, the draft is not ready for line-level polishing.
+如果任一门槛明显不过，这份稿子还不值得进入逐句润色。
 
-## Weighted dimensions
+## 加权维度
 
-Score each item from 1 to 5, then convert by weight.
+每项先按 1 到 5 分评分，再按权重折算。
 
-### 1. Benchmark closeness: 20
+### 1. 接近 benchmark 程度：20
 
-Look for:
+重点看：
 
-- complete structure
-- strong front matter that states the thesis early
-- chapter finish
-- evidence rhythm
-- capability -> product -> commercialization -> economics logic where relevant
-- professional finish
+- 结构是否完整
+- 是否在前部就把 thesis 讲明
+- 章节是否写到位
+- 证据节奏是否稳定
+- 相关场景下，是否形成 `能力 -> 产品 -> 商业化 -> 经济含义` 的桥接
+- 成稿是否具备专业 finish
 
-### 2. Independence and originality: 15
+### 2. 独立性与原创性：15
 
-Look for:
+重点看：
 
-- new thesis
-- new question framing
-- no shell-copy drift
+- thesis 是否是新的
+- 问题设置是否是新的
+- 是否存在 benchmark 壳迁移
 
-### 3. Factual accuracy and source quality: 20
+### 3. 事实准确性与来源质量：20
 
-Look for:
+重点看：
 
-- source-backed core claims
-- no contradictions in dates, names, products, or rounds
+- 核心主张是否有来源支撑
+- 日期、名称、产品、轮次等是否有明显矛盾
 
-### 4. Strength of argument: 15
+### 4. 论证强度：15
 
-Look for:
+重点看：
 
-- clear reasoning chain
-- chapter judgments that actually land
-- claims tied to evidence
+- 推理链是否清楚
+- 章节判断是否真正落地
+- 主张是否绑定证据
 
-### 5. Financial and valuation wording: 10
+### 5. 财务与估值措辞：10
 
-Look for:
+重点看：
 
-- correct listed/private wording
-- correct distinction between valuation categories
-- correct treatment of revenue vs revenue clues
-- no inappropriate leakage of stock-rating or target-value logic from a listed-company benchmark
+- 上市/非上市措辞是否正确
+- 不同估值类别是否区分清楚
+- 收入和收入线索是否区分清楚
+- 是否把上市 benchmark 里的评级语言、目标价值逻辑不当地带入新任务
 
-### 6. Figure and screenshot quality: 10
+### 6. 图表与截图质量：10
 
-Look for:
+重点看：
 
-- figure relevance
-- figure-text match
-- interpretation after evidence
-- explicit figure or table responsibilities in large reports
+- 图表是否相关
+- 图表与正文是否匹配
+- 给完证据后是否有解释
+- 长报告里是否明确分配了图表或表格责任
 
-### 7. Readability and expression: 5
+### 7. 可读性与表达：5
 
-Look for:
+重点看：
 
-- compressed prose
-- clear transitions
-- low filler
+- 文字是否压缩
+- 过渡是否清楚
+- 废话是否少
 
-### 8. Risk and boundary awareness: 5
+### 8. 风险与边界意识：5
 
-Look for:
+重点看：
 
-- real downside discussion
-- explicit uncertainty
-- no fake certainty
-- no benchmark overreach where structure transfer turns into valuation or entity transfer
+- 是否有真实 downside 讨论
+- 是否明确表达不确定性
+- 是否避免伪确定性
+- 是否避免 benchmark 过度迁移，把结构借用写成实体或估值迁移
 
-## Red lines
+## 红线
 
-Any hit below should block approval:
+以下任一命中，都应直接阻断通过：
 
-- wrong legal or listing status
-- valuation category confusion
-- unsourced core conclusion
-- figure-text mismatch
-- shell-copy risk
-- no real thesis
-- inappropriate stock-rating or target-value carryover from a benchmark sample
+- 法律或上市状态判断错误
+- 估值类别混淆
+- 核心结论无来源
+- 图表和正文错配
+- benchmark 套壳风险
+- 没有真正 thesis
+- 不恰当地继承 benchmark 的评级语言或目标价值逻辑
 
-## Issue priority
+## 问题优先级
 
 ### P0
 
-- factual errors
-- shell-copy risk
-- private/public financial wording errors
-- unsourced core conclusions
-- listed-equity benchmark leakage into a non-listed target
+- 事实错误
+- 套壳风险
+- 上市/非上市财务措辞错误
+- 核心结论无来源
+- 将上市公司 benchmark 的估值语言带入非上市对象
 
 ### P1
 
-- weak thesis
-- broken chapter logic
-- missing evidence blocks
-- poor fit between chapter and company type
-- weak capability -> product -> commercialization chain in AI-company work
+- thesis 太弱
+- 章节逻辑断裂
+- 关键证据块缺失
+- 章节形态与公司类型不匹配
+- AI 公司任务中，`能力 -> 产品 -> 商业化` 这条链条太弱
 
 ### P2
 
-- paragraph organization
-- readability
-- weak titles
-- weak risk discussion
+- 段落组织不佳
+- 可读性一般
+- 标题弱
+- 风险讨论弱
 
 ### P3
 
-- cosmetic compression
-- phrasing polish
-- formatting cleanup
+- 表层压缩
+- 句子打磨
+- 格式整理
 
-## Required review output
+## 最低 review 输出要求
 
-At minimum, produce:
+至少给出以下内容：
 
-- gate A conclusion
-- gate B conclusion
-- weighted score summary
-- red-line check
-- top 3 to 7 next actions
+- Gate A 结论
+- Gate B 结论
+- 加权评分摘要
+- 红线检查结果
+- 3 到 7 条下一步修订动作

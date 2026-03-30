@@ -33,7 +33,7 @@
 - `references/summary-and-opening.md`
 - `references/input-contract.md` 中与输出语言、startup summary、章节命名相关的部分
 
-如果后续继续细化，以下文件也建议逐步转为中文主约束：
+当前已经转为中文主约束的结构与审稿层：
 
 - `references/report-framework.md`
 - `references/quality-scorecard.md`
@@ -73,6 +73,11 @@
 - 它们会参与真实写作和审稿
 - 它们决定章节名、结构判断、财务措辞、红线判断
 - 如果长期保持英文，模型容易在中文成稿里保留英文分析骨架
+
+目前其中 `report-framework.md` 和 `quality-scorecard.md` 已经完成中文主约束，后续更值得继续推进的是：
+
+- `references/evidence-financial-rules.md`
+- `references/benchmark-archetypes.md`
 
 ## 实操规则
 
