@@ -74,6 +74,43 @@
         "Explicitly prohibits blending the two benchmark chapter systems into one mixed outline.",
         "Produces a calibration note that can be copied into 01_calibration.md with primary benchmark, rationale, scoped borrowing, and non-transfer sections."
       ]
+    },
+    {
+      "id": 5,
+      "eval_name": "benchmark-length-calibration",
+      "prompt": "Use the attached benchmark markdown extraction and counting rules to produce a benchmark length profile. Segment the source into front-page, toc/index, body, detailed financials, and disclaimer blocks; then report raw_md_chars, clean_full_report_chars, transferable_body_chars, chapter counts, chapter weights, and ratio-derived total budgets. Do not rely on fixed default word counts.",
+      "expected_output": "The output should behave like a reusable benchmark profile: separate raw from clean from transferable counts, explain what is removed from transferable scope, derive chapter weights from the transferable body, and compute short / medium / full budgets from ratio bands rather than from legacy fixed presets.",
+      "files": [
+        "references/length-budgeting.md",
+        "assets/benchmark-samples/minimax-born-global-2026-02-10-deep-extraction.md",
+        "evals/cases/benchmark-length-calibration-task.md",
+        "materials/广发证券-【广发计算机&海外】MINIMAX-WP（00100.HK）-Born-Global的稀缺全模态大模型公司-刘雪峰-公司深度研究-增持-2026-02-10-3.md"
+      ],
+      "expectations": [
+        "Segments the source into front-page, toc/index, body, detailed financials, and disclaimer or research-team buckets rather than treating the markdown extraction as one undifferentiated block.",
+        "Reports raw_md_chars, clean_full_report_chars, and transferable_body_chars as three distinct counts.",
+        "Explains which listed-equity blocks are removed from transferable scope instead of keeping rating, target-price, or detailed forecast shells inside the transferable budget.",
+        "Derives chapter counts and chapter weights from the transferable body rather than from intuition or legacy chapter presets.",
+        "Computes short, medium, and full total budgets from ratio bands rather than from the old fixed 1500 to 8000 budget system."
+      ]
+    },
+    {
+      "id": 6,
+      "eval_name": "budget-audit-underfill",
+      "prompt": "Review the attached draft as a Gate-C budget-audit task. Use the attached benchmark profile and treat the report as a full benchmark-driven deliverable. Compute the actual count, assess budget attainment, determine whether core chapter floors are likely missed, and say whether the draft should be blocked as underfilled instead of polished forward.",
+      "expected_output": "The output should use the benchmark profile as the budget anchor, compute budget attainment explicitly, diagnose structural underfill, and block the draft if it is far below the declared full-report floor.",
+      "files": [
+        "assets/benchmark-profiles/minimax-born-global-2026-02-10.json",
+        "runs/20260330-163753_moonshot-formal-run/09_final.md",
+        "evals/cases/budget-audit-underfill-moonshot.md"
+      ],
+      "expectations": [
+        "Uses the attached benchmark profile rather than any legacy fixed 1500 to 8000 default budget as the Gate-C anchor.",
+        "Computes an actual count and a budget_attainment_rate instead of only saying the draft feels short.",
+        "Diagnoses the draft as structurally underfilled or not using explicit Gate-C reasoning, not only qualitative taste language.",
+        "States whether the draft should be blocked from finalization rather than polished forward.",
+        "Returns next-step actions that prioritize research expansion, chapter rebuilding, or budget-floor recovery before sentence-level polish."
+      ]
     }
   ]
 }

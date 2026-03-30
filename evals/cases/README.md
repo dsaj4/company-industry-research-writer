@@ -4,6 +4,10 @@ This folder stores file-backed evaluation inputs.
 
 Each case should provide enough context for a realistic skill run without depending on raw copyrighted PDFs.
 
+Exception:
+
+- benchmark-length calibration may reference a local `materials/*.md` extraction file, because that eval is meant to verify the local calibration pipeline itself.
+
 Pair each case with the matching file under `../metadata/` when moving into a benchmark workspace.
 
 ## Current case types
@@ -12,6 +16,8 @@ Pair each case with the matching file under `../metadata/` when moving into a be
 - draft diagnosis with benchmark leakage
 - weak-chapter rewrite from evidence pack
 - benchmark-family selection when multiple samples exist
+- benchmark-length calibration from local `.md` extraction
+- Gate-C underfill audit using a benchmark profile
 
 ## Design rule
 

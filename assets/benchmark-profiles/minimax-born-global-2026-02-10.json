@@ -1,0 +1,247 @@
+{
+  "benchmark_id": "minimax-born-global-2026-02-10",
+  "source_md_path": "materials/广发证券-【广发计算机&海外】MINIMAX-WP（00100.HK）-Born-Global的稀缺全模态大模型公司-刘雪峰-公司深度研究-增持-2026-02-10-3.md",
+  "counting_rules_version": "md-clean-transferable-v2",
+  "raw_md_chars": 37652,
+  "page_buckets": {
+    "cover_front_page": {
+      "pages": [
+        1
+      ],
+      "chars": 1545
+    },
+    "toc_index": {
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "chars": 5585
+    },
+    "body": {
+      "pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "chars": 25155
+    },
+    "detailed_financials": {
+      "pages": [
+        35
+      ],
+      "chars": 1758
+    },
+    "disclaimer_research_team": {
+      "pages": [
+        36,
+        37
+      ],
+      "chars": 2824
+    }
+  },
+  "clean_full_report_chars": 25892,
+  "transferable_body_chars": 25282,
+  "clean_full_chapter_counts": {
+    "core_conclusions": 737,
+    "company_overview": 8584,
+    "industry_competition": 6220,
+    "highlights_differentiation": 7852,
+    "commercialization_boundary": 2188,
+    "risks": 311
+  },
+  "transferable_chapter_counts": {
+    "core_conclusions": 737,
+    "company_overview": 8584,
+    "industry_competition": 6220,
+    "highlights_differentiation": 7852,
+    "commercialization_boundary": 1578,
+    "risks": 311
+  },
+  "chapter_weight_profile": {
+    "core_conclusions": 0.0292,
+    "company_overview": 0.3395,
+    "industry_competition": 0.246,
+    "highlights_differentiation": 0.3106,
+    "commercialization_boundary": 0.0624,
+    "risks": 0.0123
+  },
+  "ratio_bands": {
+    "short": {
+      "min_ratio": 0.35,
+      "target_ratio": 0.4,
+      "max_ratio": 0.45
+    },
+    "medium": {
+      "min_ratio": 0.55,
+      "target_ratio": 0.625,
+      "max_ratio": 0.7
+    },
+    "full": {
+      "min_ratio": 0.75,
+      "target_ratio": 0.825,
+      "max_ratio": 0.9
+    }
+  },
+  "total_budget_by_band": {
+    "short": {
+      "min": 8849,
+      "target": 10113,
+      "max": 11377
+    },
+    "medium": {
+      "min": 13905,
+      "target": 15801,
+      "max": 17697
+    },
+    "full": {
+      "min": 18962,
+      "target": 20858,
+      "max": 22754
+    }
+  },
+  "chapter_budget_by_band": {
+    "short": {
+      "core_conclusions": {
+        "min": 258,
+        "target": 295,
+        "max": 332
+      },
+      "company_overview": {
+        "min": 3004,
+        "target": 3433,
+        "max": 3862
+      },
+      "industry_competition": {
+        "min": 2177,
+        "target": 2488,
+        "max": 2799
+      },
+      "highlights_differentiation": {
+        "min": 2748,
+        "target": 3141,
+        "max": 3534
+      },
+      "commercialization_boundary": {
+        "min": 552,
+        "target": 631,
+        "max": 710
+      },
+      "risks": {
+        "min": 109,
+        "target": 124,
+        "max": 140
+      }
+    },
+    "medium": {
+      "core_conclusions": {
+        "min": 406,
+        "target": 461,
+        "max": 517
+      },
+      "company_overview": {
+        "min": 4721,
+        "target": 5364,
+        "max": 6008
+      },
+      "industry_competition": {
+        "min": 3421,
+        "target": 3887,
+        "max": 4353
+      },
+      "highlights_differentiation": {
+        "min": 4319,
+        "target": 4908,
+        "max": 5497
+      },
+      "commercialization_boundary": {
+        "min": 868,
+        "target": 986,
+        "max": 1104
+      },
+      "risks": {
+        "min": 171,
+        "target": 194,
+        "max": 218
+      }
+    },
+    "full": {
+      "core_conclusions": {
+        "min": 554,
+        "target": 609,
+        "max": 664
+      },
+      "company_overview": {
+        "min": 6438,
+        "target": 7081,
+        "max": 7725
+      },
+      "industry_competition": {
+        "min": 4665,
+        "target": 5131,
+        "max": 5597
+      },
+      "highlights_differentiation": {
+        "min": 5890,
+        "target": 6478,
+        "max": 7067
+      },
+      "commercialization_boundary": {
+        "min": 1183,
+        "target": 1302,
+        "max": 1420
+      },
+      "risks": {
+        "min": 233,
+        "target": 257,
+        "max": 280
+      }
+    }
+  },
+  "full_notes": [
+    "保留首页核心观点与正文页，不计目录、图表索引、详细财务附表和免责声明。",
+    "clean_full_report_chars 保留盈利预测和投资建议整章，因为它属于 sell-side 正文的一部分。"
+  ],
+  "transferable_notes": [
+    "transferable_body_chars 删除首页财务摘要、评级区块、目标价语句和详细财务/估值壳。",
+    "商业化与边界章节仅保留业务拆分、经营逻辑与费用结构，不保留 PS、目标价和评级建议。"
+  ],
+  "deep_extraction": {
+    "front_page_density": "首页是压缩版 thesis tree，不是目录式摘要。前页应先给定位，再给模型/产品/商业化与全球化判断。",
+    "chapter_opening_formula": "判断句 -> 机制展开 -> 图表/数据锚定 -> 对 thesis 的含义。",
+    "evidence_architecture": "公司自有证据、第三方市场证据、经营验证信号、经济含义翻译四层递进。",
+    "non_transferable_shells": [
+      "上市公司评级语言",
+      "PS 估值与目标价逻辑",
+      "详细财务预测表",
+      "股价和投资建议口径"
+    ]
+  }
+}

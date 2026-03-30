@@ -149,3 +149,23 @@ It is weaker as a direct template for:
 - private-company valuation wording
 - pure model-company narratives
 - reports that do not genuinely benefit from an external analogue chapter
+
+## Length calibration snapshot
+
+对应 profile：
+
+- `assets/benchmark-profiles/fourth-paradigm-decision-intelligence-2024-12-03.json`
+
+当前 v2 计数结果：
+
+- `raw_md_chars`: `52864`
+- `clean_full_report_chars`: `38316`
+- `transferable_body_chars`: `37623`
+
+按当前强模仿比例派生：
+
+- `short`: `13168 / 15049 / 16930`
+- `medium`: `20693 / 23514 / 26336`
+- `full`: `28217 / 31039 / 33861`
+
+这份样本比 MINIMAX 更长，也更重企业平台型叙述，因此它更适合作为 enterprise-platform 家族的长度上限参考，而不是通用 AI 公司默认长度基线。

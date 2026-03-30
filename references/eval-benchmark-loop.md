@@ -115,6 +115,11 @@ Capture for each run:
 - duration
 - rough cost if available
 
+For budget-sensitive report tasks, also capture:
+
+- `budget_attainment_rate`
+- `chapter_floor_pass_rate`
+
 Track whether gains in quality come with acceptable efficiency tradeoffs.
 
 ## Failure logging
@@ -125,6 +130,12 @@ When a run fails, record:
 - whether the failure is structural, factual, stylistic, or evaluative
 - what reference should be updated
 - whether a new regression eval is needed
+
+Budget failures should be labeled explicitly:
+
+- profile-binding failure
+- underfill failure
+- chapter-floor failure
 
 ## Promotion rule
 

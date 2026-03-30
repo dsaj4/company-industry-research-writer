@@ -90,6 +90,16 @@ Current status:
   - `evals/evals.json`
   - `evals/metadata/eval-1-report-start-package.json`
   - now checks startup summary, budgeting, and orchestration decision together
+- benchmark-profile length-calibration system added:
+  - `scripts/build-benchmark-length-profile.py`
+  - `assets/benchmark-profiles/minimax-born-global-2026-02-10.json`
+  - `assets/benchmark-profiles/fourth-paradigm-decision-intelligence-2024-12-03.json`
+  - benchmark-driven long reports now derive budgets from transferable-body counts instead of fixed presets
+- new eval coverage added:
+  - `benchmark-length-calibration`
+  - `budget-audit-underfill`
+- budget regression note added:
+  - `assets/benchmark-results/2026-03-30-benchmark-length-profile-calibration-v2.md`
 
 Exit condition:
 

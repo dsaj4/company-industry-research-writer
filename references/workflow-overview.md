@@ -1,82 +1,89 @@
 # Workflow Overview
 
-This reference defines the default run contract for the skill.
+这份 reference 定义 skill 的默认 run contract。
 
-## Core objective
+## 核心目标
 
-Produce a report that is both:
+产出一份同时满足三件事的报告：
 
-- close to a strong benchmark in structure and finish
-- clearly a new report with its own object, thesis, and evidence base
-- complete at the declared depth rather than superficially "finished"
+- 在结构和完成度上接近强 benchmark
+- 明确是一份新报告，而不是套壳
+- 在声明的深度上真正写够，而不是表面完成
 
-## Two working loops
+## 两个循环
 
-### 1. Report execution loop
+### 1. 报告执行循环
 
-1. Calibration
-2. Thesis definition
-3. Budgeted outline
-4. Evidence map
-5. Assignment and authorization when applicable
-6. Chapter drafting
-7. Merge
-8. Review
-9. Revision
-10. Final delivery
+1. Request
+2. Benchmark profile 绑定
+3. Calibration
+4. Thesis definition
+5. Budgeted outline
+6. Assignment and authorization when applicable
+7. Evidence map
+8. Chapter drafting
+9. Merge
+10. Review
+11. Revision
+12. Final delivery
 
-### 2. Skill upgrade loop
+### 2. Skill 升级循环
 
-1. Compare generated draft with final edited draft
-2. Classify changes
-3. Decide what is reusable
-4. Update references or keep as case-specific note
-5. Add regression evals for important misses
+1. 对比生成稿与人工终稿
+2. 分类改动
+3. 决定什么可复用
+4. 更新 references
+5. 为重要失败补 regression eval
 
-## Default run directory
+## 默认 run 目录
 
-Use:
+使用：
 
 `runs/YYYYMMDD-HHMMSS_<topic>/`
 
-Recommended files:
+推荐文件：
 
-- `00_request.md`: user task, constraints, benchmark, target audience
-- `01_calibration.md`: five imitate / five do-not-copy bullets
-- `02_thesis.md`: central judgment, chapter questions, scope boundary
-- `03_outline.md`: report skeleton, chapter goals, figure plan, chapter budgets
-- `orchestration/01_assignment_board.md`: chapter owners, chapter budgets, and subagent approval state when orchestration is used
-- `orchestration/chapter_template/...`: per-chapter breakdown, draft, review, and revision artifacts when orchestration is used
-- `04_evidence_map.md`: claim-to-evidence table
-- `05_draft.md`: merged first complete version
-- `06_review.md`: multi-gate review, weighted score, red lines, budget audit
-- `07_revision.md`: revised version after targeted fixes
-- `08_final.md`: final delivery version
-- `09_upgrade_notes.md`: reusable learnings from edits
+- `00_request.md`
+- `01_calibration.md`
+- `02_thesis.md`
+- `03_outline.md`
+- `orchestration/01_assignment_board.md`
+- `04_evidence_map.md`
+- `05_draft.md`
+- `06_review.md`
+- `07_revision.md`
+- `08_final.md`
+- `09_upgrade_notes.md`
 
-## Use cases
+## 关键约束
 
 ### New formal report
 
-Use the full loop.
+如果任务是 benchmark-driven 的 `medium / full` 报告：
 
-If the report is `full` + `polished`, default to orchestration discipline:
-
-- create the assignment board
-- declare total and chapter budgets
-- request user approval before true subagent spawning
-- if approval is not available, keep the same assignment board and run chapters sequentially
+- 必须先绑定 benchmark profile
+- 必须先写 derived total budget 和 chapter budgets
+- 完整报告默认走 orchestration discipline
+- 真要拉 Codex 子 agent 时，先出 assignment board，再向用户申请授权
 
 ### Draft diagnosis
 
-Start at review, then go backward only as far as needed. If the thesis is weak, rebuild from thesis or outline instead of line editing.
+从 review 开始；如果 thesis 弱，就回退到 thesis 或 outline 层，而不是先做 line edit。
 
 ### Chapter-only rewrite
 
-Keep the same run folder, but create a chapter-specific subsection in the outline, evidence map, and revision notes.
+保留 chapter-level budget；如果该章本身属于长交付，就按章节 floor 审核。
 
-If the chapter deliverable is `medium` or `full`, keep a chapter-level word budget for the rewrite.
+## Gate C 在流程中的位置
 
-### Skill upgrade
+任何进入 `08_final.md` 的稿件都必须通过：
 
-Open the existing run, compare `05_draft.md` or `07_revision.md` against the human-approved version, then log reusable changes in `09_upgrade_notes.md`.
+- Gate A
+- Gate B
+- Gate C
+
+其中 Gate C 负责判断：
+
+- 写没写够
+- 是否前半篇写满、后半篇塌缩
+- 是否存在核心章节 underfill

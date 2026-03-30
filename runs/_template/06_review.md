@@ -35,9 +35,13 @@
 
 ## Budget audit
 
-- Total budget:
+- Benchmark profile:
+- Length band:
+- Declared total budget:
 - Actual count:
+- Budget attainment rate:
 - Chapter floor misses:
+- Chapter floor pass rate:
 - Structural imbalance:
 
 ## Top next actions

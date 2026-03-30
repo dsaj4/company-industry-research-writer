@@ -17,9 +17,18 @@ Each benchmark note should answer:
 3. what not to copy
 4. where the important sections live
 
+For benchmark-driven long reports, also keep a matching profile under `assets/benchmark-profiles/` so the skill can inherit:
+
+- cleaned full-report chars
+- transferable-body chars
+- chapter weights
+- ratio-derived budgets
+
 ## Current benchmark set
 
 - `minimax-born-global-2026-02-10.md`
 - `minimax-born-global-2026-02-10-deep-extraction.md`
 - `fourth-paradigm-decision-intelligence-2024-12-03.md`
 - `ai-company-benchmark-cluster-v1.md`
+- `../benchmark-profiles/minimax-born-global-2026-02-10.json`
+- `../benchmark-profiles/fourth-paradigm-decision-intelligence-2024-12-03.json`

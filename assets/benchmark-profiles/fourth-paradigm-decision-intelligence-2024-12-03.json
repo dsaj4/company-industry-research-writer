@@ -1,0 +1,261 @@
+{
+  "benchmark_id": "fourth-paradigm-decision-intelligence-2024-12-03",
+  "source_md_path": "materials/广发证券-【广发计算机&海外】第四范式（06682.HK）-技术为本，生成式AI助力大数据到决策智能-刘雪峰-公司深度研究-买入-2024-12-03-3.md",
+  "counting_rules_version": "md-clean-transferable-v2",
+  "raw_md_chars": 52864,
+  "page_buckets": {
+    "cover_front_page": {
+      "pages": [
+        1
+      ],
+      "chars": 1800
+    },
+    "toc_index": {
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "chars": 7445
+    },
+    "body": {
+      "pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "chars": 37526
+    },
+    "detailed_financials": {
+      "pages": [
+        49
+      ],
+      "chars": 2147
+    },
+    "disclaimer_research_team": {
+      "pages": [
+        50,
+        51
+      ],
+      "chars": 2867
+    }
+  },
+  "clean_full_report_chars": 38316,
+  "transferable_body_chars": 37623,
+  "clean_full_chapter_counts": {
+    "core_conclusions": 3280,
+    "company_overview": 9727,
+    "industry_competition": 5606,
+    "highlights_differentiation": 14794,
+    "commercialization_boundary": 4541,
+    "risks": 368
+  },
+  "transferable_chapter_counts": {
+    "core_conclusions": 3280,
+    "company_overview": 9727,
+    "industry_competition": 5606,
+    "highlights_differentiation": 14794,
+    "commercialization_boundary": 3848,
+    "risks": 368
+  },
+  "chapter_weight_profile": {
+    "core_conclusions": 0.0872,
+    "company_overview": 0.2585,
+    "industry_competition": 0.149,
+    "highlights_differentiation": 0.3932,
+    "commercialization_boundary": 0.1023,
+    "risks": 0.0098
+  },
+  "ratio_bands": {
+    "short": {
+      "min_ratio": 0.35,
+      "target_ratio": 0.4,
+      "max_ratio": 0.45
+    },
+    "medium": {
+      "min_ratio": 0.55,
+      "target_ratio": 0.625,
+      "max_ratio": 0.7
+    },
+    "full": {
+      "min_ratio": 0.75,
+      "target_ratio": 0.825,
+      "max_ratio": 0.9
+    }
+  },
+  "total_budget_by_band": {
+    "short": {
+      "min": 13168,
+      "target": 15049,
+      "max": 16930
+    },
+    "medium": {
+      "min": 20693,
+      "target": 23514,
+      "max": 26336
+    },
+    "full": {
+      "min": 28217,
+      "target": 31039,
+      "max": 33861
+    }
+  },
+  "chapter_budget_by_band": {
+    "short": {
+      "core_conclusions": {
+        "min": 1148,
+        "target": 1312,
+        "max": 1476
+      },
+      "company_overview": {
+        "min": 3404,
+        "target": 3890,
+        "max": 4376
+      },
+      "industry_competition": {
+        "min": 1962,
+        "target": 2242,
+        "max": 2523
+      },
+      "highlights_differentiation": {
+        "min": 5178,
+        "target": 5917,
+        "max": 6657
+      },
+      "commercialization_boundary": {
+        "min": 1347,
+        "target": 1540,
+        "max": 1732
+      },
+      "risks": {
+        "min": 129,
+        "target": 147,
+        "max": 166
+      }
+    },
+    "medium": {
+      "core_conclusions": {
+        "min": 1804,
+        "target": 2050,
+        "max": 2296
+      },
+      "company_overview": {
+        "min": 5349,
+        "target": 6078,
+        "max": 6808
+      },
+      "industry_competition": {
+        "min": 3083,
+        "target": 3504,
+        "max": 3924
+      },
+      "highlights_differentiation": {
+        "min": 8136,
+        "target": 9246,
+        "max": 10355
+      },
+      "commercialization_boundary": {
+        "min": 2117,
+        "target": 2405,
+        "max": 2694
+      },
+      "risks": {
+        "min": 203,
+        "target": 230,
+        "max": 258
+      }
+    },
+    "full": {
+      "core_conclusions": {
+        "min": 2461,
+        "target": 2707,
+        "max": 2953
+      },
+      "company_overview": {
+        "min": 7294,
+        "target": 8024,
+        "max": 8753
+      },
+      "industry_competition": {
+        "min": 4204,
+        "target": 4625,
+        "max": 5045
+      },
+      "highlights_differentiation": {
+        "min": 11095,
+        "target": 12205,
+        "max": 13314
+      },
+      "commercialization_boundary": {
+        "min": 2887,
+        "target": 3175,
+        "max": 3464
+      },
+      "risks": {
+        "min": 277,
+        "target": 304,
+        "max": 332
+      }
+    }
+  },
+  "full_notes": [
+    "保留前页、投资要点页、正文、挑战章节与盈利预测章节，不计目录、索引、财务附表和免责声明。",
+    "clean_full_report_chars 体现企业平台型 sell-side 深度报告的完整正文字数。"
+  ],
+  "transferable_notes": [
+    "transferable_body_chars 删除评级、目标价、可比公司估值表和股票 call block。",
+    "商业化与边界章节保留挑战约束与业务拆分逻辑，删除 PS 估值与买入评级结论。"
+  ],
+  "deep_extraction": {
+    "front_page_density": "除了首页摘要，还单独使用投资要点页把 thesis 拆成多个层级，因此前页密度高于一般公司概况页。",
+    "chapter_opening_formula": "先给定位与主问题，再用类比/对比章承接，再进入挑战与商业化边界。",
+    "evidence_architecture": "产品架构、客户渗透、外部对标、挑战约束、预测翻译共同承担证据职责。",
+    "non_transferable_shells": [
+      "买入评级",
+      "PS 估值和合理价值",
+      "细项业务拆分预测表中的股票研究口径",
+      "直接复用 Palantir 对比壳"
+    ]
+  }
+}

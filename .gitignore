@@ -6,6 +6,7 @@ runs/local/
 
 # Local raw report materials
 materials/*.pdf
+materials/*.md
 
 # Local raw source packs
 sourcepack/*.xlsx

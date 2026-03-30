@@ -11,12 +11,13 @@ This folder is for local raw inputs used during skill development.
 
 ## Tracking policy
 
-Raw PDFs are treated as local working inputs and are ignored by git.
+Raw PDFs and local `.md` extraction files are treated as local working inputs and are ignored by git.
 
 Reason:
 
 - they may be copyrighted
 - they are often large
+- `.md` 提取版属于原始来源的派生文本，不应默认进入仓库
 - the repository should track derived notes and reusable abstractions, not every raw source file
 
 ## What should be committed instead

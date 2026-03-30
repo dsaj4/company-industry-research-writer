@@ -10,5 +10,6 @@ Store only the reusable summary in this repository:
 - what the result was
 - what the result teaches about the skill
 - what the result teaches about the eval design
+- what new benchmark profile or budget rule was validated
 
 This keeps benchmark history searchable without checking local-only workspace folders into git.

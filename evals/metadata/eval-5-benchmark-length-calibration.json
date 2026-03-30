@@ -1,0 +1,46 @@
+{
+  "eval_id": 5,
+  "eval_name": "benchmark-length-calibration",
+  "prompt": "Use the attached benchmark markdown extraction and counting rules to produce a benchmark length profile. Segment the source into front-page, toc/index, body, detailed financials, and disclaimer blocks; then report raw_md_chars, clean_full_report_chars, transferable_body_chars, chapter counts, chapter weights, and ratio-derived total budgets. Do not rely on fixed default word counts.",
+  "expected_output": "The output should behave like a reusable benchmark profile: separate raw from clean from transferable counts, explain what is removed from transferable scope, derive chapter weights from the transferable body, and compute short / medium / full budgets from ratio bands rather than from legacy fixed presets.",
+  "source_files": [
+    "references/length-budgeting.md",
+    "assets/benchmark-samples/minimax-born-global-2026-02-10-deep-extraction.md",
+    "evals/cases/benchmark-length-calibration-task.md",
+    "materials/广发证券-【广发计算机&海外】MINIMAX-WP（00100.HK）-Born-Global的稀缺全模态大模型公司-刘雪峰-公司深度研究-增持-2026-02-10-3.md"
+  ],
+  "assertions": [
+    {
+      "text": "Segments the source into front-page, toc/index, body, detailed financials, and disclaimer or research-team buckets rather than treating the markdown extraction as one undifferentiated block.",
+      "grading_hint": "Passing requires all major buckets or an equivalent segmentation with the same meaning."
+    },
+    {
+      "text": "Reports raw_md_chars, clean_full_report_chars, and transferable_body_chars as three distinct counts.",
+      "grading_hint": "Fail if the output reports only one number or collapses clean and transferable into the same unlabeled bucket."
+    },
+    {
+      "text": "Explains which listed-equity blocks are removed from transferable scope instead of keeping rating, target-price, or detailed forecast shells inside the transferable budget.",
+      "grading_hint": "Passing outputs should explicitly mention stock-rating or valuation-shell removals, not just say some parts are excluded."
+    },
+    {
+      "text": "Derives chapter counts and chapter weights from the transferable body rather than from intuition or legacy chapter presets.",
+      "grading_hint": "Passing outputs should show chapter-level derived counts or weights, not only broad chapter names."
+    },
+    {
+      "text": "Computes short, medium, and full total budgets from ratio bands rather than from the old fixed 1500 to 8000 budget system.",
+      "grading_hint": "Fail if the output falls back to the legacy fixed presets or omits ratio-based budget derivation."
+    }
+  ],
+  "human_review_gates": [
+    "Does the profile look reusable as a benchmark-calibration asset rather than a one-off note?",
+    "Does the transferable count feel grounded in the report body instead of inflated by indexes and disclaimers?",
+    "Would this profile let a later run derive budgets without manual guessing?"
+  ],
+  "failure_mode_watchlist": [
+    "single undifferentiated count",
+    "no transferable deletion note",
+    "legacy fixed budget fallback",
+    "chapter weights guessed by taste",
+    "toc or disclaimer leakage"
+  ]
+}

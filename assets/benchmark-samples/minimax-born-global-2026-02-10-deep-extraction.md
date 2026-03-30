@@ -21,6 +21,26 @@
 
 对于后续模仿型 run，这一版更适合作为真正的 calibration 资产。
 
+## Length calibration snapshot
+
+对应 profile：
+
+- `assets/benchmark-profiles/minimax-born-global-2026-02-10.json`
+
+当前 v2 计数结果：
+
+- `raw_md_chars`: `37652`
+- `clean_full_report_chars`: `25892`
+- `transferable_body_chars`: `25282`
+
+按当前强模仿比例派生：
+
+- `short`: `8849 / 10113 / 11377`
+- `medium`: `13905 / 15801 / 17697`
+- `full`: `18962 / 20858 / 22754`
+
+这意味着，若要模仿这份样本去写一篇正式长稿，目标量级应接近 `2.1 万` 清洗后可见字符，而不是 `6000` 左右的 memo 级预算。
+
 ## Page-level map
 
 ### Front matter
@@ -225,6 +245,21 @@
 - 图表索引本身就是写作规划工具
 - 在写正文之前就已经决定每章需要什么证据
 
+## Transferable chapter weights
+
+来自 `transferable_body_chars` 的章节权重：
+
+| Chapter | Chars | Weight |
+| --- | --- | --- |
+| Core conclusions | 737 | 2.92% |
+| Company overview | 8584 | 33.95% |
+| Industry / competition | 6220 | 24.60% |
+| Highlights / differentiation | 7852 | 31.06% |
+| Commercialization / boundary | 1578 | 6.24% |
+| Risks | 311 | 1.23% |
+
+这些权重不是“写作审美建议”，而是后续 budget table 的默认派生来源。
+
 ## Style signatures worth imitating
 
 ### 1. Judgment-first
@@ -258,6 +293,8 @@
 1. 上市公司评级语言
 2. `PS` 估值与目标价格逻辑
 3. 财务报表和详细盈利预测壳
+4. 首页财务摘要与评级区块
+5. 直接面向股票投资的投资建议句式
 4. MiniMax 专有产品矩阵、用户数据和收入假设
 5. `Pureplay` 上市 AI 公司视角下的可比公司表
 

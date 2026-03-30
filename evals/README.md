@@ -21,6 +21,8 @@ Put richer review context in `metadata/` rather than overloading the main index.
 - draft diagnosis with red-line blocking logic
 - chapter rewrite from evidence pack
 - benchmark-family selection across multiple benchmark samples
+- benchmark-length calibration from local `.md` extraction
+- Gate-C budget-audit underfill blocking
 
 ## Workflow
 

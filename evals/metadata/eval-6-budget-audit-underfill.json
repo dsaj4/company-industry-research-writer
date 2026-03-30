@@ -1,0 +1,44 @@
+{
+  "eval_id": 6,
+  "eval_name": "budget-audit-underfill",
+  "prompt": "Review the attached draft as a Gate-C budget-audit task. Use the attached benchmark profile and treat the report as a full benchmark-driven deliverable. Compute the actual count, assess budget attainment, determine whether core chapter floors are likely missed, and say whether the draft should be blocked as underfilled instead of polished forward.",
+  "expected_output": "The output should use the benchmark profile as the budget anchor, compute budget attainment explicitly, diagnose structural underfill, and block the draft if it is far below the declared full-report floor.",
+  "source_files": [
+    "assets/benchmark-profiles/minimax-born-global-2026-02-10.json",
+    "runs/20260330-163753_moonshot-formal-run/09_final.md",
+    "evals/cases/budget-audit-underfill-moonshot.md"
+  ],
+  "assertions": [
+    {
+      "text": "Uses the attached benchmark profile rather than any legacy fixed 1500 to 8000 default budget as the Gate-C anchor.",
+      "grading_hint": "Passing outputs should explicitly reference the profile or its derived full-budget floor."
+    },
+    {
+      "text": "Computes an actual count and a budget_attainment_rate instead of only saying the draft feels short.",
+      "grading_hint": "Passing outputs should include numbers or an equivalent explicit calculation."
+    },
+    {
+      "text": "Diagnoses the draft as structurally underfilled or not using explicit Gate-C reasoning, not only qualitative taste language.",
+      "grading_hint": "Passing requires floor-based reasoning such as chapter underfill, completion failure, or front-heavy imbalance."
+    },
+    {
+      "text": "States whether the draft should be blocked from finalization rather than polished forward.",
+      "grading_hint": "Fail if the output only suggests generic polishing without an explicit block/pass decision."
+    },
+    {
+      "text": "Returns next-step actions that prioritize research expansion, chapter rebuilding, or budget-floor recovery before sentence-level polish.",
+      "grading_hint": "Passing outputs should focus on recovering missing substance before prose polishing."
+    }
+  ],
+  "human_review_gates": [
+    "Does the review behave like a real Gate-C audit rather than a style critique?",
+    "Would this output stop a clearly underfilled long report from being mislabeled as complete?"
+  ],
+  "failure_mode_watchlist": [
+    "uses old fixed budget",
+    "no explicit count",
+    "no block decision",
+    "ignores structural imbalance",
+    "recommends polish first"
+  ]
+}

@@ -16,6 +16,7 @@ Read only what is needed for the current task:
   - `references/input-contract.md`
   - `references/length-budgeting.md`
   - `references/workflow-overview.md`
+  - `assets/benchmark-profiles/*.json` when the task is benchmark-driven
   - `references/benchmark-archetypes.md`
   - `references/research-trigger.md`
   - `references/iteration-and-orchestration.md`
@@ -61,7 +62,7 @@ Read only what is needed for the current task:
 6. If a long report is underpowered chapter by chapter, rewrite chapters from zero instead of endlessly patching a weak whole draft.
 7. When a fact cannot be confirmed, downgrade the wording instead of pretending certainty.
 8. For Chinese research tasks, default to Chinese output unless the user explicitly asks for English or bilingual delivery.
-9. For `medium` and `full` deliverables, declare a hard total-word budget and chapter-word budgets before drafting.
+9. For benchmark-driven `medium` and `full` deliverables, budgets must come from a benchmark profile rather than from fixed default word counts.
 10. For full polished reports, default to orchestration discipline. If chapter subagents require explicit user approval and approval is not granted, switch to sequential fallback using the same assignment board.
 
 ## Standard workflow
@@ -81,8 +82,10 @@ Write a short startup summary with:
 - source-pack status
 - whether deeper research is triggered
 - output language
-- length preset and total-word budget
+- benchmark profile, ratio band, and derived total budget
 - subagent mode
+
+If the report is benchmark-driven, bind the run to one profile under `assets/benchmark-profiles/` before thesis or outline work begins.
 
 ### Step 0.5: Decide whether deeper research is required
 
@@ -101,6 +104,13 @@ This prevents shell-copy drift.
 
 If multiple benchmark samples are available, choose the primary benchmark using `references/benchmark-archetypes.md`.
 
+If the task is benchmark-driven, record:
+
+- `transferable_body_chars`
+- `counting_rules_version`
+- `short / medium / full` ratio band
+- derived total budget
+
 ### Step 2: Define the thesis and chapter question tree
 
 Write:
@@ -109,7 +119,7 @@ Write:
 - three to six chapter-level questions
 - one sentence on why this report is about this company or sector, not a generic market write-up
 - the highest-priority evidence types for each chapter
-- chapter weights and word budgets using `references/length-budgeting.md`
+- chapter weights and word budgets using `references/length-budgeting.md` and the bound benchmark profile
 
 If the thesis is vague, stop and sharpen it before outlining.
 
@@ -136,6 +146,8 @@ Each chapter needs:
 - owner: global control or chapter execution
 
 For `medium` and `full` reports, add a chapter budget table before prose starts.
+
+For benchmark-driven reports, every chapter budget must be profile-derived rather than manually estimated.
 
 ### Step 3.5: Decide orchestration and request approval when needed
 
@@ -202,6 +214,11 @@ Before detailed scoring, answer:
 1. Is this close to benchmark quality?
 2. Is this clearly a new report with its own thesis and boundaries?
 3. Does the report meet its declared total and chapter-level budget floor?
+
+Also record:
+
+- `budget_attainment_rate`
+- `chapter_floor_pass_rate`
 
 If any answer is no, do not waste time polishing sentences yet.
 

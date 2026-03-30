@@ -1,5 +1,12 @@
 # Outline
 
+## Profile-derived budget summary
+
+- Benchmark profile:
+- Transferable body chars:
+- Length band:
+- Total budget:
+
 ## Report structure
 
 1. Title page
@@ -12,31 +19,49 @@
 
 ## Chapter budget table
 
-| Chapter | Judgment | Evidence job | Min | Target | Max | Owner |
-| --- | --- | --- | --- | --- | --- | --- |
-| Core conclusions |  |  |  |  |  | global |
-| Company overview |  |  |  |  |  |  |
-| Industry / competition |  |  |  |  |  |  |
-| Highlights / differentiation |  |  |  |  |  |  |
-| Commercialization / valuation boundary |  |  |  |  |  |  |
-| Risks |  |  |  |  |  | global |
+| Chapter | Judgment | Question answered | Evidence job | Min | Target | Max | Owner |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Core conclusions |  |  |  |  |  |  | global |
+| Company overview |  |  |  |  |  |  |  |
+| Industry / competition |  |  |  |  |  |  |  |
+| Highlights / differentiation |  |  |  |  |  |  |  |
+| Commercialization / valuation boundary |  |  |  |  |  |  |  |
+| Risks |  |  |  |  |  |  | global |
 
 ## Chapter plan
 
-### Chapter 1
+### Core conclusions
 
 - Judgment:
-- Question answered:
 - Expected evidence:
 - Figure anchors:
-- Word budget:
-- Owner:
 
-### Chapter 2
+### Company overview
 
 - Judgment:
-- Question answered:
 - Expected evidence:
 - Figure anchors:
-- Word budget:
-- Owner:
+
+### Industry / competition
+
+- Judgment:
+- Expected evidence:
+- Figure anchors:
+
+### Highlights / differentiation
+
+- Judgment:
+- Expected evidence:
+- Figure anchors:
+
+### Commercialization / valuation boundary
+
+- Judgment:
+- Expected evidence:
+- Figure anchors:
+
+### Risks
+
+- Judgment:
+- Expected evidence:
+- Figure anchors:
