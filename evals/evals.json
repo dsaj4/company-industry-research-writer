@@ -27,6 +27,17 @@
         "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
         "evals/cases/company-highlights-rewrite-pack.md"
       ]
+    },
+    {
+      "id": 4,
+      "prompt": "Use the attached benchmark cluster and both benchmark notes to select the correct benchmark family for the target brief. State the primary benchmark, explain why it fits the company archetype, optionally name one secondary pattern to borrow, and list what must not be transferred. Then write the calibration note that would go into `01_calibration.md`.",
+      "expected_output": "The output should explicitly choose a primary benchmark based on archetype fit, not on personal preference, and should constrain any secondary borrowing instead of blending both benchmark systems into one outline.",
+      "files": [
+        "assets/benchmark-samples/ai-company-benchmark-cluster-v1.md",
+        "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
+        "assets/benchmark-samples/fourth-paradigm-decision-intelligence-2024-12-03.md",
+        "evals/cases/benchmark-family-selection-enterprise-platform.md"
+      ]
     }
   ]
 }

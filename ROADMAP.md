@@ -37,6 +37,8 @@ Current status:
   - `evals/cases/private-ai-outline-brief.md`
   - `evals/cases/private-ai-draft-with-benchmark-leakage.md`
   - `evals/cases/company-highlights-rewrite-pack.md`
+- benchmark-family selection eval added:
+  - `evals/cases/benchmark-family-selection-enterprise-platform.md`
 
 Exit condition:
 
