@@ -66,6 +66,32 @@ For each core chapter judgment, record:
 
 If a core claim has no credible source, rewrite or remove it.
 
+## Benchmark-backed evidence classes
+
+A strong AI company benchmark often combines several evidence classes in one report. Useful default buckets are:
+
+1. company timeline and management tables
+2. product screenshots and pricing tables
+3. financial charts and business-split charts
+4. third-party market and benchmark charts
+5. comparable-company valuation tables
+
+The lesson is not to force all five into every report. The lesson is that different chapter claims should be carried by different evidence types.
+
+## AI company bridge rule
+
+When writing about AI companies, do not jump directly from model capability to valuation.
+
+Try to show the chain explicitly:
+
+1. model or technical capability
+2. product experience or product form
+3. user, developer, or enterprise adoption
+4. revenue, pricing, or commercialization signal
+5. economic or valuation implication
+
+If too many steps in this chain are missing, the report is overstating its confidence.
+
 ## Financial wording rules
 
 ### Listed companies
@@ -92,6 +118,17 @@ Do not flatten these categories:
 
 When discussing a private company, make the category explicit every time it matters.
 
+### Transfer guardrail for listed-company benchmarks
+
+If the benchmark sample is a listed-equity report:
+
+- its chapter structure may transfer
+- its evidence density may transfer
+- its rating and target-value language do not transfer automatically
+- its full financial-statement projection machinery does not transfer automatically
+
+The benchmark can teach report shape without dictating company-type wording.
+
 ## Red-line wording mistakes
 
 Never:
@@ -111,3 +148,5 @@ For each figure, note:
 - what claim it supports
 - where it appears
 - what the reader should conclude from it
+
+If the report is large, a figure or table index can be used as a planning artifact to make these responsibilities explicit before drafting.
