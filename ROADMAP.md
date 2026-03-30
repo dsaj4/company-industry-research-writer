@@ -54,6 +54,8 @@ Current status:
   - `assets/benchmark-results/2026-03-30-report-start-package-iteration-1.md`
 - second executed benchmark summary added:
   - `assets/benchmark-results/2026-03-30-draft-diagnosis-and-red-lines-iteration-1.md`
+- third executed benchmark summary added:
+  - `assets/benchmark-results/2026-03-30-chapter-rewrite-from-evidence-iteration-1.md`
 
 Exit condition:
 
