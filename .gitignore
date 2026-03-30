@@ -1,0 +1,8 @@
+# Local benchmark and evaluation workspaces
+company-industry-research-writer-workspace/
+
+# Generated run artifacts
+runs/*
+!runs/README.md
+!runs/_template/
+!runs/_template/**

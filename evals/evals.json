@@ -1,0 +1,23 @@
+{
+  "skill_name": "company-industry-research-writer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "你现在是一名研究员。给你一个 benchmark 研报、一个目标公司材料包和若干截图，请先校准哪些结构要学习、哪些结论不能照搬，然后写出一份正式的公司研究报告大纲和核心观点。",
+      "expected_output": "应该先做 benchmark 校准，再产出 thesis、章节结构、核心观点和图表职责，而不是直接开始散写。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "请评审这份未上市 AI 公司研究草稿，重点检查 thesis 是否成立、是否存在套壳风险、是否混淆完成融资估值与传闻估值、是否把收入线索写成审计营收，并给出下一轮修改任务。",
+      "expected_output": "应该执行双主指标评审、红线检查和优先级明确的问题清单，而不是只给泛泛的语言润色建议。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "整份报告主线基本正确，但公司看点这一章明显偏薄。请按单章节从 0 重写的方式，先做子章节拆解和证据规划，再输出 revised chapter，并解释相对旧稿修了什么。",
+      "expected_output": "应该采用章节级 breakdown -> draft -> comparison -> revision 的方式推进，而不是直接在旧稿上做轻微补丁。",
+      "files": []
+    }
+  ]
+}

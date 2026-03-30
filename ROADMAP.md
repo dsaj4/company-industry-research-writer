@@ -1,0 +1,69 @@
+# Roadmap
+
+This roadmap turns the current skill from a document-first `v1` into a testable and self-improving system.
+
+## V1: Done
+
+- skill skeleton created
+- reusable references distilled from local workflow docs
+- minimal eval prompt set created
+- run directory contract defined
+
+## V2: Benchmarkable
+
+Priority:
+
+1. add 2 to 3 curated benchmark assets under `assets/`
+2. create one real run folder from the current project materials
+3. expand `evals/evals.json` with concrete file-backed cases
+4. draft qualitative and quantitative grading assertions
+5. use `references/eval-benchmark-loop.md` to formalize baseline comparisons
+
+Exit condition:
+
+- skill can be compared against a baseline on real report tasks
+
+## V3: Diff-driven upgrading
+
+Priority:
+
+1. save generated draft vs final edited draft pairs
+2. standardize `09_upgrade_notes.md`
+3. promote recurring edits into references
+4. add regression evals for major recurring misses
+
+Exit condition:
+
+- final human edits reliably improve the skill instead of disappearing into chat history
+
+## V4: Variant specialization
+
+Potential variants:
+
+- private-company deep dive
+- listed-company equity-style report
+- chapter-only rewrite and diagnosis
+- industry-only landscape report
+
+Exit condition:
+
+- the skill can choose the correct variant without overloading one generic workflow
+
+## New supporting references: Added
+
+- `references/input-contract.md`
+- `references/research-trigger.md`
+- `references/summary-and-opening.md`
+- `references/eval-benchmark-loop.md`
+
+## V5: Light automation
+
+Possible later additions:
+
+- script to scaffold a new run folder
+- script to compare draft and final versions
+- script to summarize upgrade notes across runs
+
+Exit condition:
+
+- repeated bookkeeping work is reduced without hiding analytical judgment
