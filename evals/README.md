@@ -17,7 +17,7 @@ Put richer review context in `metadata/` rather than overloading the main index.
 
 ## Current eval coverage
 
-- report-start package with benchmark calibration
+- report-start package with benchmark calibration, budgeting, and orchestration decision
 - draft diagnosis with red-line blocking logic
 - chapter rewrite from evidence pack
 - benchmark-family selection across multiple benchmark samples

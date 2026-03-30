@@ -5,17 +5,19 @@
       "id": 1,
       "eval_name": "report-start-package",
       "prompt": "Use the attached benchmark note and target brief to produce a report-start package. First calibrate what to imitate versus what must remain different, then write the central thesis, chapter question tree, and a formal outline with figure responsibilities. Do not turn the result into a stock-rating report.",
-      "expected_output": "The output should behave like a reusable run start rather than a one-shot answer: capture the startup summary, make a research-trigger judgment, perform benchmark calibration, declare the company type, avoid listed-equity leakage, and produce a thesis plus chaptered outline.",
+      "expected_output": "The output should behave like a reusable run start rather than a one-shot answer: capture the startup summary, make a research-trigger judgment, perform benchmark calibration, declare the company type, declare length preset and word budgets, state the orchestration mode and approval gate, avoid listed-equity leakage, and produce a thesis plus chaptered outline.",
       "files": [
         "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
         "evals/cases/private-ai-outline-brief.md"
       ],
       "expectations": [
-        "Starts with a startup summary that states task type, audience, benchmark mode, company type, source-pack status, and whether deeper research is triggered.",
+        "Starts with a startup summary that states task type, audience, benchmark mode, company type, source-pack status, whether deeper research is triggered, length preset, and orchestration mode.",
         "Explicitly names a primary benchmark and separates imitate-versus-different items before outlining.",
         "Makes an explicit research-trigger judgment tied to unstable valuation, revenue, traffic, or product-position claims rather than giving only generic caution.",
         "Provides one central thesis plus a three-to-six-question chapter tree.",
+        "Declares a total word budget and chapter-level word budgets rather than only a soft short/medium/full label.",
         "Assigns chapter-specific evidence or figure jobs rather than generic placeholder bullets.",
+        "For a full-report setup, states whether orchestration is proposed and includes an approval gate or sequential fallback before chapter execution.",
         "Frames the deliverable as private-company research rather than a stock call and avoids stock rating, target price, and listed-equity valuation wording."
       ]
     },

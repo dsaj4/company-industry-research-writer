@@ -14,9 +14,11 @@ Read only what is needed for the current task:
 - New report from materials:
   - `references/language-policy.md`
   - `references/input-contract.md`
+  - `references/length-budgeting.md`
   - `references/workflow-overview.md`
   - `references/benchmark-archetypes.md`
   - `references/research-trigger.md`
+  - `references/iteration-and-orchestration.md`
   - `references/report-framework.md`
   - `references/writing-style.md`
   - `references/style-signatures.md`
@@ -26,6 +28,7 @@ Read only what is needed for the current task:
 - Review an existing draft:
   - `references/language-policy.md`
   - `references/input-contract.md`
+  - `references/length-budgeting.md`
   - `references/workflow-overview.md`
   - `references/quality-scorecard.md`
   - `references/evidence-financial-rules.md`
@@ -34,6 +37,7 @@ Read only what is needed for the current task:
 - Rewrite one chapter or section from zero:
   - `references/language-policy.md`
   - `references/input-contract.md`
+  - `references/length-budgeting.md`
   - `references/report-framework.md`
   - `references/writing-style.md`
   - `references/style-signatures.md`
@@ -57,6 +61,8 @@ Read only what is needed for the current task:
 6. If a long report is underpowered chapter by chapter, rewrite chapters from zero instead of endlessly patching a weak whole draft.
 7. When a fact cannot be confirmed, downgrade the wording instead of pretending certainty.
 8. For Chinese research tasks, default to Chinese output unless the user explicitly asks for English or bilingual delivery.
+9. For `medium` and `full` deliverables, declare a hard total-word budget and chapter-word budgets before drafting.
+10. For full polished reports, default to orchestration discipline. If chapter subagents require explicit user approval and approval is not granted, switch to sequential fallback using the same assignment board.
 
 ## Standard workflow
 
@@ -75,6 +81,8 @@ Write a short startup summary with:
 - source-pack status
 - whether deeper research is triggered
 - output language
+- length preset and total-word budget
+- subagent mode
 
 ### Step 0.5: Decide whether deeper research is required
 
@@ -101,6 +109,7 @@ Write:
 - three to six chapter-level questions
 - one sentence on why this report is about this company or sector, not a generic market write-up
 - the highest-priority evidence types for each chapter
+- chapter weights and word budgets using `references/length-budgeting.md`
 
 If the thesis is vague, stop and sharpen it before outlining.
 
@@ -123,6 +132,28 @@ Each chapter needs:
 - question answered
 - expected evidence
 - planned figure anchors
+- min/target/max word budget
+- owner: global control or chapter execution
+
+For `medium` and `full` reports, add a chapter budget table before prose starts.
+
+### Step 3.5: Decide orchestration and request approval when needed
+
+Use `references/iteration-and-orchestration.md`.
+
+If the report is full or chapter-heavy:
+
+- create an assignment board
+- mark the run as `orchestrated-proposed`
+- if actual subagents would be used, explicitly ask the user to approve the proposed chapter split before spawning them
+- if approval is not granted, continue as `orchestrated-sequential` with the same chapter briefs
+
+The global controller keeps:
+
+- title and front page
+- core conclusions
+- overall thesis and budget ownership
+- merge and style unification
 
 ### Step 4: Map evidence before prose
 
@@ -145,7 +176,15 @@ Within each chapter and paragraph:
 - support with facts, numbers, charts, or screenshots
 - close with implication
 
-For long reports, prefer chapter-by-chapter drafting. Use the orchestration pattern in `references/iteration-and-orchestration.md`.
+For `medium` and `full` reports, do not write the whole report as one monolithic draft after budgets are declared.
+
+Instead:
+
+- draft chapter by chapter
+- require each chapter to meet its minimum budget before merge
+- merge into `05_draft.md` only after the controller checks coverage, duplication, and boundary wording
+
+Use the orchestration pattern in `references/iteration-and-orchestration.md`.
 
 Use `references/summary-and-opening.md` for:
 
@@ -156,14 +195,15 @@ Use `references/summary-and-opening.md` for:
 
 When prose finish matters, load one matching file under `assets/style-samples/` so the draft inherits real report moves instead of generic "professional tone."
 
-### Step 6: Review with dual gates first
+### Step 6: Review with gates first
 
 Before detailed scoring, answer:
 
 1. Is this close to benchmark quality?
 2. Is this clearly a new report with its own thesis and boundaries?
+3. Does the report meet its declared total and chapter-level budget floor?
 
-If either answer is no, do not waste time polishing sentences yet.
+If any answer is no, do not waste time polishing sentences yet.
 
 ### Step 7: Score and revise by priority
 
@@ -201,6 +241,8 @@ Unless the user asks for something else, aim to save:
 - `01_calibration.md`
 - `02_thesis.md`
 - `03_outline.md`
+- `orchestration/01_assignment_board.md` when applicable
+- `orchestration/chapters/<chapter_id>/...` outputs when applicable
 - `04_evidence_map.md`
 - `05_draft.md`
 - `06_review.md`

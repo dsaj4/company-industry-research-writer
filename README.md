@@ -14,12 +14,18 @@ The skill now has two preservation layers:
 1. analysis layer: thesis, chapter logic, evidence responsibility, valuation wording
 2. style layer: opening density, chapter-opening pattern, argument compression, and risk-writing pattern distilled from current reports
 
+It now also has two control layers for long-form work:
+
+1. length-budget layer: total and chapter word budgets
+2. orchestration layer: assignment board, approval gate, chapter execution, and merge
+
 ## Directory map
 
 - `SKILL.md`: main skill entrypoint
 - `references/`: rules loaded on demand
 - `references/language-policy.md`: which layers should default to Chinese for Chinese research tasks
 - `references/input-contract.md`: how to stabilize the brief at run start
+- `references/length-budgeting.md`: how to turn soft length targets into total and chapter budgets
 - `references/research-trigger.md`: when deeper research is required
 - `references/summary-and-opening.md`: how to write strong openings and executive summaries
 - `references/style-signatures.md`: benchmark-derived writing signatures from current broker reports

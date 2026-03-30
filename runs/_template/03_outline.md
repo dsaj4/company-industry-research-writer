@@ -10,6 +10,17 @@
 6. Commercialization, financial clues, and valuation discussion
 7. Risks
 
+## Chapter budget table
+
+| Chapter | Judgment | Evidence job | Min | Target | Max | Owner |
+| --- | --- | --- | --- | --- | --- | --- |
+| Core conclusions |  |  |  |  |  | global |
+| Company overview |  |  |  |  |  |  |
+| Industry / competition |  |  |  |  |  |  |
+| Highlights / differentiation |  |  |  |  |  |  |
+| Commercialization / valuation boundary |  |  |  |  |  |  |
+| Risks |  |  |  |  |  | global |
+
 ## Chapter plan
 
 ### Chapter 1
@@ -18,6 +29,8 @@
 - Question answered:
 - Expected evidence:
 - Figure anchors:
+- Word budget:
+- Owner:
 
 ### Chapter 2
 
@@ -25,3 +38,5 @@
 - Question answered:
 - Expected evidence:
 - Figure anchors:
+- Word budget:
+- Owner:

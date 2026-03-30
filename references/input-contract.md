@@ -14,6 +14,9 @@
 6. 当前 source pack 或材料范围
 7. 约束与截止时间
 8. 输出语言
+9. 篇幅档位
+10. 完成度目标
+11. 协作模式
 
 ## 任务类型
 
@@ -106,14 +109,22 @@
 
 这两项都要写：
 
-- 篇幅目标：short / medium / full
+- 篇幅档位：short / medium / full
 - 完成度目标：rough / working / polished / final
+- 总字数预算：min / target / max
+
+如果是 `medium` 或 `full`，再补：
+
+- 章节预算表：每章 min / target / max
+- 协作模式：`single-agent / orchestrated-proposed / orchestrated-approved / orchestrated-sequential`
 
 建议默认值：
 
-- 完整公司报告 -> `full` + `polished`
+- 完整公司报告 -> `full` + `polished` + orchestration discipline
 - 旧稿诊断 -> `medium` + `working`
 - 单章重写 -> `medium` + `polished`
+
+默认预算从 `references/length-budgeting.md` 读取。
 
 ## 当 brief 不完整时的默认假设
 
@@ -125,6 +136,8 @@
 - 公司类型：从材料推断；若不清晰且估值措辞敏感，优先用更谨慎的非上市公司措辞
 - 完成度：默认 polished，不默认 final
 - 输出语言：默认中文
+- 协作模式：完整公司深度报告默认 `orchestrated-proposed`
+- 字数预算：默认从 `references/length-budgeting.md` 取对应档位
 
 ## Startup summary
 
@@ -137,5 +150,7 @@ run 开始时，在 `00_request.md` 或 `01_calibration.md` 里写一个简短 s
 - source-pack 状态
 - 是否触发 deeper research
 - 输出语言
+- 篇幅档位与总字数预算
+- 协作模式
 
 保持简短。目标是对齐，不是增加仪式感。

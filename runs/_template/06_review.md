@@ -12,6 +12,12 @@
 - Evidence:
 - Blocking:
 
+## Gate C: Budget and completion floor
+
+- Conclusion:
+- Evidence:
+- Blocking:
+
 ## Weighted score summary
 
 - Benchmark closeness:
@@ -26,6 +32,13 @@
 ## Red-line check
 
 - 
+
+## Budget audit
+
+- Total budget:
+- Actual count:
+- Chapter floor misses:
+- Structural imbalance:
 
 ## Top next actions
 

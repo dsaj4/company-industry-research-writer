@@ -1,5 +1,18 @@
 # Request
 
+## Startup summary
+
+- Task type:
+- Audience:
+- Benchmark mode:
+- Company type:
+- Source-pack status:
+- Deeper research triggered:
+- Output language:
+- Length preset:
+- Total word budget:
+- Subagent mode:
+
 ## Task
 
 - 
@@ -21,5 +34,9 @@
 - 
 
 ## Expected deliverable
+
+- 
+
+## Chapter budget plan
 
 - 

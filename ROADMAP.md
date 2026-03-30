@@ -78,6 +78,18 @@ Current status:
   - `runs/20260330-161912_xtalpi-chinese-style-real-test/`
   - `assets/benchmark-results/2026-03-30-xtalpi-chinese-style-real-test.md`
   - validated front-page core points and company-overview opener as the first high-signal Chinese writing slice
+- hard length-budgeting layer added:
+  - `references/length-budgeting.md`
+  - `references/input-contract.md` upgraded with total and chapter budget fields
+  - `references/quality-scorecard.md` upgraded with budget-completion gate
+- orchestration workflow upgraded from optional idea to default full-report discipline:
+  - `references/iteration-and-orchestration.md`
+  - `references/workflow-overview.md`
+  - explicit authorization gate for Codex subagent spawning plus sequential fallback
+- report-start benchmark contract tightened again:
+  - `evals/evals.json`
+  - `evals/metadata/eval-1-report-start-package.json`
+  - now checks startup summary, budgeting, and orchestration decision together
 
 Exit condition:
 
