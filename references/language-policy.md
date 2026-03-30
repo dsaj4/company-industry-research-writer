@@ -79,6 +79,10 @@
 - `references/evidence-financial-rules.md`
 - `references/benchmark-archetypes.md`
 
+目前 `references/evidence-financial-rules.md` 也已经完成中文主约束，因此剩下最值得继续推进的是：
+
+- `references/benchmark-archetypes.md`
+
 ## 实操规则
 
 当任务是中文研报时：

@@ -1,152 +1,162 @@
-# Evidence And Financial Rules
+# 证据与财务措辞规则
 
-This reference prevents the most common research-report failures: unsupported claims, blurred confidence levels, and incorrect financial wording.
+这份 reference 用来防止几类最常见的研报失败：
 
-## Confidence ladder
+- 核心结论没有证据支撑
+- 不同置信度被混成一层
+- 财务与估值措辞写错
+- 非上市公司被写成上市公司口径
 
-Every important claim should be tagged mentally as one of three levels:
+## 置信度阶梯
 
-### Confirmed fact
+每一个重要主张，默认都要在心里归到以下三层之一。
 
-Definition:
+### 1. 已确认事实
 
-- directly supported by an official document, company page, filing, transcript, or other high-confidence source
+#### 定义
 
-Wording:
+- 直接由官方文件、公司页面、监管披露、访谈原文或其他高置信来源支持
 
-- "the company disclosed"
-- "the filing shows"
-- "the pricing page lists"
+#### 推荐写法
 
-### Informed inference
+- `公司披露显示……`
+- `招股书/年报显示……`
+- `官网定价页列示……`
+- `公开材料确认……`
 
-Definition:
+### 2. 有依据的推断
 
-- supported by multiple signals but not stated directly
+#### 定义
 
-Wording:
+- 没有被直接明说，但由多个信号共同支持
 
-- "this suggests"
-- "the available evidence indicates"
-- "taken together, these signals imply"
+#### 推荐写法
 
-### Working hypothesis
+- `这表明……`
+- `现有证据显示……`
+- `综合这些信号来看……`
+- `从多项指标交叉看……`
 
-Definition:
+### 3. 工作假设
 
-- plausible but still under-verified
+#### 定义
 
-Wording:
+- 合理，但当前仍然验证不足
 
-- "we think"
-- "it may indicate"
-- "this remains to be confirmed"
+#### 推荐写法
 
-## Source hierarchy
+- `我们倾向于认为……`
+- `这可能意味着……`
+- `这一点仍需进一步确认……`
+- `目前更像一个待验证判断……`
 
-Prefer, in order:
+## 来源层级
 
-1. official sources
-2. audited or regulated disclosures
-3. reputable third-party datasets
-4. mainstream media or financing coverage
-5. ecosystem signals such as GitHub, traffic, developer adoption, pricing proxies
+默认优先级如下：
 
-If lower-tier sources are used for a critical claim, say so explicitly.
+1. 官方来源
+2. 审计或监管披露
+3. 可信第三方数据集
+4. 主流媒体或融资报道
+5. 生态信号，例如 GitHub、流量、开发者采用、定价 proxy
 
-## Evidence map minimum
+如果一个关键结论依赖的是低层级来源，必须显式降级措辞。
 
-For each core chapter judgment, record:
+## 最低证据映射要求
 
-- claim
-- source
-- source type
-- confidence level
-- implication
+对于每个核心章节判断，至少记录：
 
-If a core claim has no credible source, rewrite or remove it.
+- 主张是什么
+- 来源是什么
+- 来源类型是什么
+- 置信度属于哪一层
+- 这条证据为什么重要
 
-## Benchmark-backed evidence classes
+如果一个核心主张没有可信来源，就应该重写或删除，而不是靠语气撑住。
 
-A strong AI company benchmark often combines several evidence classes in one report. Useful default buckets are:
+## Benchmark 支撑下的常见证据类型
 
-1. company timeline and management tables
-2. product screenshots and pricing tables
-3. financial charts and business-split charts
-4. third-party market and benchmark charts
-5. comparable-company valuation tables
+一个强 AI 公司 benchmark，通常不会只用一种证据。
 
-The lesson is not to force all five into every report. The lesson is that different chapter claims should be carried by different evidence types.
+可复用的默认桶包括：
 
-## AI company bridge rule
+1. 公司时间线与管理层表格
+2. 产品截图与定价表
+3. 财务图表与业务拆分图
+4. 第三方市场与 benchmark 图
+5. 可比公司估值表
 
-When writing about AI companies, do not jump directly from model capability to valuation.
+要学的不是“每篇都凑齐五类”，而是“不同章节判断由不同证据类型承担”。
 
-Try to show the chain explicitly:
+## AI 公司桥接规则
 
-1. model or technical capability
-2. product experience or product form
-3. user, developer, or enterprise adoption
-4. revenue, pricing, or commercialization signal
-5. economic or valuation implication
+写 AI 公司时，不要从模型能力直接跳到估值。
 
-If too many steps in this chain are missing, the report is overstating its confidence.
+尽量把链条明确写出来：
 
-## Financial wording rules
+1. 模型或技术能力
+2. 产品体验或产品形态
+3. 用户、开发者或企业侧采用
+4. 收入、定价或商业化信号
+5. 经济或估值含义
 
-### Listed companies
+如果这条链中间缺了太多环节，说明报告对自己的判断过于自信。
 
-You may use:
+## 财务措辞规则
 
-- market capitalization
-- audited revenue
-- disclosed guidance
-- reported margins
-- standard valuation framing
+### 上市公司
 
-### Private companies
+可以使用：
 
-Do not flatten these categories:
+- 市值
+- 已审计收入
+- 已披露指引
+- 已披露利润率
+- 标准估值框架
 
-- completed financing valuation
-- target valuation
-- rumored valuation
-- revenue clues
-- audited revenue
-- product pricing
-- user or traffic proxies
+### 非上市公司
 
-When discussing a private company, make the category explicit every time it matters.
+以下几类信息绝不能压成一个概念：
 
-### Transfer guardrail for listed-company benchmarks
+- 已完成融资估值
+- 目标估值
+- 传闻估值
+- 收入线索
+- 已审计收入
+- 产品定价
+- 用户量或流量 proxy
 
-If the benchmark sample is a listed-equity report:
+只要这些类别会影响判断，就必须明确写出当前到底说的是哪一类。
 
-- its chapter structure may transfer
-- its evidence density may transfer
-- its rating and target-value language do not transfer automatically
-- its full financial-statement projection machinery does not transfer automatically
+## 上市 benchmark 的迁移护栏
 
-The benchmark can teach report shape without dictating company-type wording.
+如果 benchmark 样本是上市公司研报：
 
-## Red-line wording mistakes
+- 它的章节结构可以迁移
+- 它的证据密度可以迁移
+- 它的评级语言和目标价值逻辑不能自动迁移
+- 它的完整财务预测机器不能自动迁移
 
-Never:
+换句话说，benchmark 可以教会报告形状，但不能替你决定公司类型措辞。
 
-- call a private-company valuation a market cap
-- present target or rumored valuation as completed financing valuation
-- present revenue clues as audited revenue
-- present weak signals as proven facts
-- cite a screenshot or chart that does not match the written claim
+## 红线措辞错误
 
-## Figure responsibility
+以下错误默认视为红线：
 
-Every figure should answer one question.
+- 把非上市公司估值写成市值
+- 把目标估值或传闻估值写成已完成融资估值
+- 把收入线索写成已审计收入
+- 把弱信号写成已证实事实
+- 图表和正文主张不匹配
 
-For each figure, note:
+## 图表责任
 
-- what claim it supports
-- where it appears
-- what the reader should conclude from it
+每一张图都应该回答一个问题。
 
-If the report is large, a figure or table index can be used as a planning artifact to make these responsibilities explicit before drafting.
+对每张图至少明确：
+
+- 它支持哪条主张
+- 它放在哪一章
+- 读者看完后应该得出什么结论
+
+如果报告较长，可以在 drafting 前先做图表或表格索引，把这些责任显式写出来。
