@@ -61,6 +61,10 @@ Current status:
   - stronger non-primary rejection and anti-blend requirements
 - fourth executed benchmark summary added:
   - `assets/benchmark-results/2026-03-30-benchmark-family-selection-iteration-1.md`
+- tightened reruns confirmed discrimination on the previously weak evals:
+  - `assets/benchmark-results/2026-03-30-report-start-package-iteration-2.md`
+  - `assets/benchmark-results/2026-03-30-benchmark-family-selection-iteration-2.md`
+  - both moved from `5/5 vs 5/5` to `6/6 vs 4/6`
 
 Exit condition:
 
