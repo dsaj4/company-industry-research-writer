@@ -46,6 +46,8 @@ Current status:
   - `evals/metadata/eval-2-draft-diagnosis-and-red-lines.json`
   - `evals/metadata/eval-3-chapter-rewrite-from-evidence.json`
   - `evals/metadata/eval-4-benchmark-family-selection.json`
+- grader convention reference added:
+  - `references/grading-conventions.md`
 
 Exit condition:
 

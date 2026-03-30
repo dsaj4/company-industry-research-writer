@@ -37,6 +37,7 @@ Read only what is needed for the current task:
 - Upgrade the skill from human edits:
   - `references/skill-upgrade-protocol.md`
   - `references/eval-benchmark-loop.md`
+  - `references/grading-conventions.md`
   - `references/quality-scorecard.md`
   - `references/local-source-map.md`
 
@@ -179,6 +180,8 @@ When both an AI-generated version and a final edited version exist:
 Follow `references/skill-upgrade-protocol.md`.
 
 If comparing versions, also use `references/eval-benchmark-loop.md`.
+
+If grading benchmark outputs, also use `references/grading-conventions.md`.
 
 ## Output contract
 

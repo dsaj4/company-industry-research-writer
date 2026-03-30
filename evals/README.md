@@ -25,5 +25,5 @@ Put richer review context in `metadata/` rather than overloading the main index.
 
 1. Read `evals.json` to choose the eval and collect input files.
 2. Copy the matching `metadata/*.json` payload into the run workspace as `eval_metadata.json`.
-3. Grade against the `assertions` there and mirror the same texts into `grading.json`.
+3. Grade against the `assertions` there, using `references/grading-conventions.md`, and mirror the same texts into `grading.json`.
 4. Keep human review focused on benchmark quality and shell-copy boundaries.

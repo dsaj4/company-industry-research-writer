@@ -49,6 +49,8 @@ Inside the skill repository:
 
 Keep the expectation text stable across these files so grading stays comparable over time.
 
+For exact `grading.json` writing rules, use `references/grading-conventions.md`.
+
 ## Good eval task types
 
 Use a mix of:
@@ -97,6 +99,8 @@ Each eval still needs a human pass on these two gates:
 2. Is the output clearly a new report rather than a shell copy?
 
 Quantitative checks should support this review, not replace it.
+
+If a run has a decent pass rate but still feels benchmark-weak, record that in the grader notes rather than inflating the pass/fail counts.
 
 ## Timing and cost
 
