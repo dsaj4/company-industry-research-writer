@@ -74,14 +74,12 @@
 - 它们决定章节名、结构判断、财务措辞、红线判断
 - 如果长期保持英文，模型容易在中文成稿里保留英文分析骨架
 
-目前其中 `report-framework.md` 和 `quality-scorecard.md` 已经完成中文主约束，后续更值得继续推进的是：
+目前这些文件都已经完成中文主约束：
 
+- `references/report-framework.md`
 - `references/evidence-financial-rules.md`
 - `references/benchmark-archetypes.md`
-
-目前 `references/evidence-financial-rules.md` 也已经完成中文主约束，因此剩下最值得继续推进的是：
-
-- `references/benchmark-archetypes.md`
+- `references/quality-scorecard.md`
 
 ## 实操规则
 

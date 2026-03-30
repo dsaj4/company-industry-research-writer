@@ -1,116 +1,116 @@
-# Benchmark Archetypes
+# Benchmark 原型选择
 
-Use this reference when more than one benchmark sample is available.
+当手头不止一份 benchmark 样本时，读取这份 reference。
 
-The goal is not to ask "which sample is best?" The goal is to ask "which sample best matches the target company's report archetype?"
+这里要回答的问题不是“哪份样本更强”，而是“哪份样本更匹配目标公司的报告原型”。
 
-## Core rule
+## 核心规则
 
-Pick one primary benchmark.
+先选一个 primary benchmark。
 
-If needed, use one secondary benchmark for a narrow pattern only.
+如果确实需要，再从另一个 benchmark 借一个很窄的 secondary pattern。
 
-Do not blend multiple strong benchmark reports into one overloaded outline.
+不要把多个强 benchmark 混成一个臃肿 outline。
 
-## Shared benchmark backbone
+## 共享 backbone
 
-Across the current benchmark set, the following backbone is consistently strong:
+当前 benchmark 集合里，以下骨架是共同成立且较强的：
 
-1. high-density front matter
-2. company overview
-3. industry analysis
-4. differentiation chapter
-5. commercialization, financial logic, or valuation discussion
-6. risks
-7. figure and table planning
+1. 高密度前页
+2. 公司概况
+3. 行业分析
+4. 差异化或亮点章节
+5. 商业化、财务逻辑或估值讨论
+6. 风险
+7. 图表或表格规划
 
-This is the default structure to preserve unless the task clearly needs another shape.
+除非任务明确需要另一种形状，否则这就是默认应保留的骨架。
 
-## Current archetypes
+## 当前两类主要原型
 
-### Archetype A: Model-and-product-led AI company
+### 原型 A：模型与产品驱动型 AI 公司
 
-Primary benchmark:
+#### Primary benchmark
 
 - `assets/benchmark-samples/minimax-born-global-2026-02-10.md`
 
-Use when the target is:
+#### 适用对象
 
-- model-led
-- consumer-product-led
-- global-product-led
-- usage- or product-momentum-led
+- 模型驱动
+- 消费产品驱动
+- 全球产品驱动
+- 使用量或产品 momentum 驱动
 
-Strong borrowed patterns:
+#### 它最值得借的模式
 
-- capability -> productization -> commercialization bridge
-- strong company-highlights chapter
-- product screenshot and pricing evidence
-- usage and market benchmark evidence
+- `能力 -> 产品化 -> 商业化` 桥接
+- 强公司亮点章节
+- 产品截图与定价证据
+- 使用量、市场 benchmark 类证据
 
-### Archetype B: Enterprise-platform AI company
+### 原型 B：企业平台型 AI 公司
 
-Primary benchmark:
+#### Primary benchmark
 
 - `assets/benchmark-samples/fourth-paradigm-decision-intelligence-2024-12-03.md`
 
-Use when the target is:
+#### 适用对象
 
-- enterprise-platform-led
-- workflow- or decision-intelligence-led
-- customer-strategy-led
-- architecture- and solution-led
+- 企业平台驱动
+- 工作流或决策智能驱动
+- 客户策略驱动
+- 架构和解决方案驱动
 
-Strong borrowed patterns:
+#### 它最值得借的模式
 
-- platform-centered company overview
-- comparison-led positioning chapter
-- challenge-before-valuation chapter
-- customer and industry penetration evidence
+- 平台中心的公司概况
+- 对比型定位章节
+- `先 challenge、后估值` 的章节节奏
+- 客户与行业渗透类证据
 
-## Secondary-pattern borrowing
+## Secondary pattern 借用规则
 
-A secondary benchmark is allowed only when it contributes a specific pattern that the primary benchmark lacks.
+只有当 secondary benchmark 提供了 primary benchmark 没有的特定模式时，才允许借用。
 
-Examples:
+例如：
 
-- borrow the challenge chapter idea from Archetype B
-- borrow the productization bridge from Archetype A
+- 从原型 B 借 `challenge chapter`
+- 从原型 A 借 `产品化到商业化桥接`
 
-When doing this:
+借用时必须满足三条：
 
-- name the borrowed pattern explicitly
-- keep the primary benchmark's overall skeleton
-- do not import the secondary benchmark's whole chapter system
+1. 明确点名借的是什么
+2. 保留 primary benchmark 的整体骨架
+3. 不要把 secondary benchmark 的整套章节系统搬进来
 
-## Non-transferables
+## 不可迁移内容
 
-From any listed-equity benchmark, do not inherit by default:
+对于任何上市公司 benchmark，默认不要继承以下内容：
 
-- stock rating
-- target price
-- target-value wording
-- company-specific forecasts
-- company-specific segment splits
-- full public-equity financial-statement machinery
+- 评级语言
+- 目标价
+- 目标价值措辞
+- 公司专属预测
+- 公司专属业务拆分
+- 完整公股财务报表机器
 
-## Selection checklist
+## 选择清单
 
-Before drafting, answer:
+在正式 drafting 前，先回答这五个问题：
 
-1. Is this target primarily model-led or enterprise-platform-led?
-2. Is the company story carried more by product usage or by customer/solution architecture?
-3. Would an analogue-comparison chapter clarify the thesis or distract from it?
-4. Does the report need a challenge chapter before valuation?
-5. Is the target company type listed or private?
+1. 目标对象更偏模型驱动，还是更偏企业平台驱动？
+2. 公司的故事更主要由产品使用驱动，还是由客户/解决方案架构驱动？
+3. analogue/comparison chapter 会让 thesis 更清楚，还是会干扰它？
+4. 这份报告是否需要在估值前先单列一个 challenge 章节？
+5. 目标对象是上市公司还是非上市公司？
 
-Your answers determine the benchmark choice.
+这五个答案共同决定 benchmark 选型。
 
-## Output requirement
+## 输出要求
 
-When benchmark selection matters, write a short note in `01_calibration.md`:
+只要 benchmark 选型会影响结构，就在 `01_calibration.md` 里写一个短 note，至少包括：
 
-- primary benchmark chosen
-- reason for choosing it
-- any secondary benchmark pattern borrowed
-- what will not be transferred
+- 选了哪个 primary benchmark
+- 为什么选它
+- 借了哪个 secondary pattern（如果有）
+- 哪些内容不会迁移
