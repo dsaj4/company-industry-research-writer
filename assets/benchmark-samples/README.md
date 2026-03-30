@@ -20,5 +20,6 @@ Each benchmark note should answer:
 ## Current benchmark set
 
 - `minimax-born-global-2026-02-10.md`
+- `minimax-born-global-2026-02-10-deep-extraction.md`
 - `fourth-paradigm-decision-intelligence-2024-12-03.md`
 - `ai-company-benchmark-cluster-v1.md`
