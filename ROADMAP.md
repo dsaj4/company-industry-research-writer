@@ -74,6 +74,10 @@ Current status:
 - Chinese-first output policy added for output-facing writing layers:
   - `references/language-policy.md`
   - style and opening references moved to Chinese constraints first
+- first scoped real-world Chinese style test added:
+  - `runs/20260330-161912_xtalpi-chinese-style-real-test/`
+  - `assets/benchmark-results/2026-03-30-xtalpi-chinese-style-real-test.md`
+  - validated front-page core points and company-overview opener as the first high-signal Chinese writing slice
 
 Exit condition:
 
