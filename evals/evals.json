@@ -3,33 +3,58 @@
   "evals": [
     {
       "id": 1,
+      "eval_name": "report-start-package",
       "prompt": "Use the attached benchmark note and target brief to produce a report-start package. First calibrate what to imitate versus what must remain different, then write the central thesis, chapter question tree, and a formal outline with figure responsibilities. Do not turn the result into a stock-rating report.",
       "expected_output": "The output should explicitly perform benchmark calibration, declare the company type, avoid listed-equity leakage, and produce a thesis plus chaptered outline rather than jumping straight into prose.",
       "files": [
         "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
         "evals/cases/private-ai-outline-brief.md"
+      ],
+      "expectations": [
+        "Explicitly names a primary benchmark and separates imitate-versus-different items before outlining.",
+        "States the target company type or report archetype in the start package.",
+        "Provides one central thesis plus a chapter-level question tree.",
+        "Assigns evidence or figure responsibilities at chapter level.",
+        "Avoids stock rating, target price, and listed-equity valuation wording."
       ]
     },
     {
       "id": 2,
+      "eval_name": "draft-diagnosis-and-red-lines",
       "prompt": "Review the attached draft excerpt as a research-review task. Check whether the thesis holds, whether benchmark leakage is present, whether valuation and revenue wording are correct for the company type, and whether the draft should be blocked for red-line reasons. Then provide the next revision tasks in priority order.",
       "expected_output": "The output should apply dual-gate review, identify shell-copy or listed-equity leakage, flag valuation-language mistakes, and produce a prioritized fix list instead of generic line-edit advice.",
       "files": [
         "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
         "evals/cases/private-ai-draft-with-benchmark-leakage.md"
+      ],
+      "expectations": [
+        "Applies a dual-gate review before sentence-level editing advice.",
+        "Flags benchmark leakage or shell-copy drift with concrete evidence from the draft.",
+        "Flags incorrect listed-equity, valuation, or revenue wording for the company type.",
+        "States whether the draft should be blocked on red-line grounds.",
+        "Returns a prioritized next-step revision list."
       ]
     },
     {
       "id": 3,
+      "eval_name": "chapter-rewrite-from-evidence",
       "prompt": "Rewrite the weak chapter package from zero using a chapter-first workflow. Start with a subchapter breakdown and evidence plan, compare the weak old draft against what the chapter should achieve, then produce a revised chapter and explain what changed.",
       "expected_output": "The output should follow a breakdown -> draft -> comparison -> revision pattern, use the evidence pack rather than lightly patching the old text, and avoid benchmark-shell carryover.",
       "files": [
         "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
         "evals/cases/company-highlights-rewrite-pack.md"
+      ],
+      "expectations": [
+        "Begins with a subchapter breakdown and evidence plan before rewritten prose.",
+        "Compares the weak old draft against the chapter's required jobs or missing content.",
+        "Produces a rewritten chapter rather than only line-editing the old draft.",
+        "Uses the evidence pack and identifies where support remains weak.",
+        "Explains what changed and why."
       ]
     },
     {
       "id": 4,
+      "eval_name": "benchmark-family-selection",
       "prompt": "Use the attached benchmark cluster and both benchmark notes to select the correct benchmark family for the target brief. State the primary benchmark, explain why it fits the company archetype, optionally name one secondary pattern to borrow, and list what must not be transferred. Then write the calibration note that would go into `01_calibration.md`.",
       "expected_output": "The output should explicitly choose a primary benchmark based on archetype fit, not on personal preference, and should constrain any secondary borrowing instead of blending both benchmark systems into one outline.",
       "files": [
@@ -37,6 +62,13 @@
         "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
         "assets/benchmark-samples/fourth-paradigm-decision-intelligence-2024-12-03.md",
         "evals/cases/benchmark-family-selection-enterprise-platform.md"
+      ],
+      "expectations": [
+        "Chooses one explicit primary benchmark family.",
+        "Justifies the choice using company archetype fit rather than stylistic preference.",
+        "Names at most one secondary borrowing pattern and limits its scope.",
+        "Lists what must not transfer from the non-primary benchmark.",
+        "Produces a calibration note that can be copied into 01_calibration.md."
       ]
     }
   ]

@@ -4,6 +4,8 @@ This folder stores file-backed evaluation inputs.
 
 Each case should provide enough context for a realistic skill run without depending on raw copyrighted PDFs.
 
+Pair each case with the matching file under `../metadata/` when moving into a benchmark workspace.
+
 ## Current case types
 
 - outline generation with benchmark calibration
@@ -21,3 +23,5 @@ Good examples:
 - can the skill detect listed-equity leakage in a private-company draft
 - can the skill rebuild a weak chapter from evidence instead of patching it
 - can the skill choose the right benchmark family and limit secondary borrowing
+
+Keep one main capability per case so the expectations remain discriminating.

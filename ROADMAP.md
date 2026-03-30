@@ -39,6 +39,13 @@ Current status:
   - `evals/cases/company-highlights-rewrite-pack.md`
 - benchmark-family selection eval added:
   - `evals/cases/benchmark-family-selection-enterprise-platform.md`
+- assertion-backed eval index added:
+  - `evals/evals.json`
+- richer grading metadata added:
+  - `evals/metadata/eval-1-report-start-package.json`
+  - `evals/metadata/eval-2-draft-diagnosis-and-red-lines.json`
+  - `evals/metadata/eval-3-chapter-rewrite-from-evidence.json`
+  - `evals/metadata/eval-4-benchmark-family-selection.json`
 
 Exit condition:
 

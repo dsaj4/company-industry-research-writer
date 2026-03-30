@@ -1,0 +1,42 @@
+{
+  "eval_id": 3,
+  "eval_name": "chapter-rewrite-from-evidence",
+  "prompt": "Rewrite the weak chapter package from zero using a chapter-first workflow. Start with a subchapter breakdown and evidence plan, compare the weak old draft against what the chapter should achieve, then produce a revised chapter and explain what changed.",
+  "expected_output": "The output should follow a breakdown -> draft -> comparison -> revision pattern, use the evidence pack rather than lightly patching the old text, and avoid benchmark-shell carryover.",
+  "source_files": [
+    "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
+    "evals/cases/company-highlights-rewrite-pack.md"
+  ],
+  "assertions": [
+    {
+      "text": "Begins with a subchapter breakdown and evidence plan before rewritten prose.",
+      "grading_hint": "Fail if the output jumps straight into rewrite prose without planning the chapter jobs first."
+    },
+    {
+      "text": "Compares the weak old draft against the chapter's required jobs or missing content.",
+      "grading_hint": "Passing outputs explain what the old draft failed to do, not just that it was weak."
+    },
+    {
+      "text": "Produces a rewritten chapter rather than only line-editing the old draft.",
+      "grading_hint": "Look for new structure and fresh prose, not a lightly patched carry-forward version."
+    },
+    {
+      "text": "Uses the evidence pack and identifies where support remains weak.",
+      "grading_hint": "The rewrite should anchor claims to supplied evidence and still mark unresolved weak spots."
+    },
+    {
+      "text": "Explains what changed and why.",
+      "grading_hint": "The post-rewrite note should connect revisions to chapter purpose, not just say 'improved clarity'."
+    }
+  ],
+  "human_review_gates": [
+    "Does the new chapter feel rebuilt from first principles rather than cosmetically repaired?",
+    "Would this rewrite support the overall report thesis better than the old draft?"
+  ],
+  "failure_mode_watchlist": [
+    "patch-not-rewrite behavior",
+    "missing evidence plan",
+    "benchmark-shell carryover",
+    "rewrite without change log"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "eval_id": 2,
+  "eval_name": "draft-diagnosis-and-red-lines",
+  "prompt": "Review the attached draft excerpt as a research-review task. Check whether the thesis holds, whether benchmark leakage is present, whether valuation and revenue wording are correct for the company type, and whether the draft should be blocked for red-line reasons. Then provide the next revision tasks in priority order.",
+  "expected_output": "The output should apply dual-gate review, identify shell-copy or listed-equity leakage, flag valuation-language mistakes, and produce a prioritized fix list instead of generic line-edit advice.",
+  "source_files": [
+    "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
+    "evals/cases/private-ai-draft-with-benchmark-leakage.md"
+  ],
+  "assertions": [
+    {
+      "text": "Applies a dual-gate review before sentence-level editing advice.",
+      "grading_hint": "Passing outputs explicitly answer benchmark-quality and new-report boundary questions before fine edits."
+    },
+    {
+      "text": "Flags benchmark leakage or shell-copy drift with concrete evidence from the draft.",
+      "grading_hint": "The output should cite copied framing, chapter shell drift, or benchmark wording, not just say 'too similar'."
+    },
+    {
+      "text": "Flags incorrect listed-equity, valuation, or revenue wording for the company type.",
+      "grading_hint": "Look for warnings about target price, market-cap logic, or overclaimed revenue certainty."
+    },
+    {
+      "text": "States whether the draft should be blocked on red-line grounds.",
+      "grading_hint": "Passing requires an explicit block/not-block judgment or equivalent severity call."
+    },
+    {
+      "text": "Returns a prioritized next-step revision list.",
+      "grading_hint": "The fix plan should be ordered by importance, not presented as flat generic suggestions."
+    }
+  ],
+  "human_review_gates": [
+    "Does the diagnosis surface the true structural problems, not just cosmetic edits?",
+    "Would the proposed next steps materially reduce shell-copy and valuation-language risk?"
+  ],
+  "failure_mode_watchlist": [
+    "generic line edit feedback",
+    "missed benchmark leakage",
+    "missed valuation wording error",
+    "no blocking judgment"
+  ]
+}

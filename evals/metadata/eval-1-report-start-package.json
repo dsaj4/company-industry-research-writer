@@ -1,0 +1,42 @@
+{
+  "eval_id": 1,
+  "eval_name": "report-start-package",
+  "prompt": "Use the attached benchmark note and target brief to produce a report-start package. First calibrate what to imitate versus what must remain different, then write the central thesis, chapter question tree, and a formal outline with figure responsibilities. Do not turn the result into a stock-rating report.",
+  "expected_output": "The output should explicitly perform benchmark calibration, declare the company type, avoid listed-equity leakage, and produce a thesis plus chaptered outline rather than jumping straight into prose.",
+  "source_files": [
+    "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
+    "evals/cases/private-ai-outline-brief.md"
+  ],
+  "assertions": [
+    {
+      "text": "Explicitly names a primary benchmark and separates imitate-versus-different items before outlining.",
+      "grading_hint": "Look for a calibration block or equivalent that lists what to imitate and what must remain different."
+    },
+    {
+      "text": "States the target company type or report archetype in the start package.",
+      "grading_hint": "The output should classify the target company, not leave the report type implicit."
+    },
+    {
+      "text": "Provides one central thesis plus a chapter-level question tree.",
+      "grading_hint": "Passing requires both a thesis and chapter questions or their equivalent."
+    },
+    {
+      "text": "Assigns evidence or figure responsibilities at chapter level.",
+      "grading_hint": "Each major chapter should have evidence jobs, figure anchors, or comparable proof-planning detail."
+    },
+    {
+      "text": "Avoids stock rating, target price, and listed-equity valuation wording.",
+      "grading_hint": "Fail if the output turns the task into a buy/add/target-price style report."
+    }
+  ],
+  "human_review_gates": [
+    "Does the start package feel structurally close to the benchmark without copying its shell?",
+    "Would this package let a later drafting step produce a genuinely new report?"
+  ],
+  "failure_mode_watchlist": [
+    "benchmark shell copy",
+    "no explicit calibration",
+    "outline without thesis",
+    "listed-equity leakage"
+  ]
+}

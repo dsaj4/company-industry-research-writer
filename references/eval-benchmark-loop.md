@@ -42,6 +42,13 @@ Inside each run folder:
 - `grading.json`
 - `timing.json`
 
+Inside the skill repository:
+
+- `evals/evals.json` should carry the prompt, source files, and benchmark-facing expectations
+- `evals/metadata/*.json` should carry richer assertions, grading hints, and human review gates
+
+Keep the expectation text stable across these files so grading stays comparable over time.
+
 ## Good eval task types
 
 Use a mix of:
@@ -74,6 +81,13 @@ Some important qualities are subjective, but these are often checkable:
 - mentions risks or uncertainty
 - avoids forbidden wording such as private-company market cap where inappropriate
 - uses evidence categories or source hierarchy
+
+For this skill, prefer 4 to 6 expectations per eval:
+
+- enough to discriminate useful behavior
+- not so many that grading becomes noisy or redundant
+
+Use descriptive expectation text that can be copied directly into `grading.json`.
 
 ## Human review gates
 
@@ -110,3 +124,9 @@ Only upgrade the skill after you can explain:
 - what specific failure occurred
 - what change in the skill should prevent it
 - how a future eval will verify that improvement
+
+When a failure becomes recurring, add or strengthen:
+
+- one expectation in `evals/evals.json`
+- one richer assertion in `evals/metadata/*.json`
+- one regression case if the current cases do not surface the failure reliably

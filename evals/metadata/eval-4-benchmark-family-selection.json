@@ -1,0 +1,44 @@
+{
+  "eval_id": 4,
+  "eval_name": "benchmark-family-selection",
+  "prompt": "Use the attached benchmark cluster and both benchmark notes to select the correct benchmark family for the target brief. State the primary benchmark, explain why it fits the company archetype, optionally name one secondary pattern to borrow, and list what must not be transferred. Then write the calibration note that would go into `01_calibration.md`.",
+  "expected_output": "The output should explicitly choose a primary benchmark based on archetype fit, not on personal preference, and should constrain any secondary borrowing instead of blending both benchmark systems into one outline.",
+  "source_files": [
+    "assets/benchmark-samples/ai-company-benchmark-cluster-v1.md",
+    "assets/benchmark-samples/minimax-born-global-2026-02-10.md",
+    "assets/benchmark-samples/fourth-paradigm-decision-intelligence-2024-12-03.md",
+    "evals/cases/benchmark-family-selection-enterprise-platform.md"
+  ],
+  "assertions": [
+    {
+      "text": "Chooses one explicit primary benchmark family.",
+      "grading_hint": "Fail if the answer hedges between two equal primaries or refuses to choose."
+    },
+    {
+      "text": "Justifies the choice using company archetype fit rather than stylistic preference.",
+      "grading_hint": "The reasoning should cite business model, product shape, commercialization logic, or similar fit criteria."
+    },
+    {
+      "text": "Names at most one secondary borrowing pattern and limits its scope.",
+      "grading_hint": "Passing outputs borrow narrowly and explain where the borrowing stops."
+    },
+    {
+      "text": "Lists what must not transfer from the non-primary benchmark.",
+      "grading_hint": "Look for explicit non-transfer boundaries, not vague cautions."
+    },
+    {
+      "text": "Produces a calibration note that can be copied into 01_calibration.md.",
+      "grading_hint": "The final section should read like a reusable run artifact, not just an explanation paragraph."
+    }
+  ],
+  "human_review_gates": [
+    "Does the benchmark choice feel analytically grounded and stable?",
+    "Would this calibration note help prevent mixed-shell outlines in a real run?"
+  ],
+  "failure_mode_watchlist": [
+    "no primary benchmark choice",
+    "style-based benchmark selection",
+    "over-borrowing from secondary sample",
+    "missing non-transfer boundaries"
+  ]
+}
