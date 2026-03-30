@@ -1,107 +1,107 @@
-# GF Front Page And Core Points
+# 广发首页与核心观点模式
 
-## Source pages
+## 参考页面
 
-- `materials/*MINIMAX*.pdf` page 1
-- `materials/*第四范式*.pdf` page 1
-- `materials/*聚水潭*.pdf` page 1
-- `materials/*晶泰控股*.pdf` page 1
+- `materials/*MINIMAX*.pdf` 第 1 页
+- `materials/*第四范式*.pdf` 第 1 页
+- `materials/*聚水潭*.pdf` 第 1 页
+- `materials/*晶泰控股*.pdf` 第 1 页
 
-## What repeats across these reports
+## 这些研报首页的共同点
 
-### 1. The title already contains the report angle
+### 1. 标题本身就带分析角度
 
-The title is not just company name plus `deep dive`.
+标题不是“公司名 + 深度研究”就结束。
 
-It usually does two jobs:
+它通常同时做两件事：
 
-- identify the company
-- compress the report's main angle into one line
+- 说明研究对象是谁
+- 压缩整篇报告最核心的分析角度
 
-Common angle types:
+常见角度类型：
 
-- company archetype
-- strategic wedge
-- commercialization inflection
-- new growth curve
-- technical identity plus business implication
+- 公司 archetype
+- 核心楔子
+- 商业化拐点
+- 第二成长曲线
+- 技术身份加商业含义
 
-## 2. The `核心观点` block is a compressed report map
+## 2. `核心观点` 区域本质上是一张压缩后的报告地图
 
-The opening bullet block usually has 4 to 6 bullets with distinct roles:
+首页 bullet 常见数量是 4 到 6 条，而且每条承担不同任务：
 
-1. who the company is
-2. why the market or category matters
-3. what makes the company notable
-4. where the next growth or commercialization leg comes from
-5. what the formal investment or valuation view is
-6. what the main risk is
+1. 公司是什么
+2. 行业或赛道为什么重要
+3. 公司为何值得看
+4. 下一条增长或商业化逻辑来自哪里
+5. 正式投资/估值判断是什么
+6. 主要风险是什么
 
-The bullets do not all say the same thing in different words.
+重点不是 bullet 数量，而是每条都不能重复说同一件事。
 
-## 3. Each bullet follows a stable internal motion
+## 3. 每个 bullet 里都有一个相对稳定的内部节奏
 
-Typical motion:
+常见节奏：
 
-1. one judgment phrase up front
-2. one mechanism clause
-3. one evidence or factual support clause
-4. one implication clause
+1. 先给一个判断短语
+2. 再补机制解释
+3. 再补事实或证据
+4. 最后收一句含义
 
-That is why the bullets feel dense instead of slogan-like.
+这就是为什么它们读起来密，但不像口号。
 
-## 4. The first bullet often defines the company archetype
+## 4. 第一条 bullet 往往先定义公司 archetype
 
-Examples of reusable archetype moves:
+常见可迁移动作：
 
-- rare pureplay
-- platform-centered leader
-- collaborative SaaS leader
-- global frontrunner in a new research paradigm
+- 稀缺 pureplay
+- 平台型龙头
+- 协同型 SaaS 龙头
+- 某种新研发范式的全球领先者
 
-The important lesson is not the label itself.
+重要的不是这些标签本身。
 
-The important lesson is that the first bullet quickly tells the reader what kind of company this is supposed to be.
+重要的是，第一条要让读者很快知道“这家公司到底是哪一类东西”。
 
-## 5. The later bullets usually widen from core identity to growth logic
+## 5. 后面的 bullet 会从身份逐步推进到成长逻辑
 
-The sequence is often:
+常见顺序：
 
-- company identity
-- market space
-- competitive or product strength
-- commercialization or expansion path
-- valuation/recommendation
-- risk
+- 公司身份
+- 市场空间
+- 核心优势或产品/平台强项
+- 商业化、出海或第二曲线
+- 估值/建议
+- 风险
 
-That sequence is a strong default even for private-company work, except that the listed-equity bullet should be replaced by a valuation-boundary or business-implication bullet.
+这套顺序即使迁移到非上市公司研究里也仍然成立，只是要把公股估值段改成“估值边界或商业含义段”。
 
-## Reusable migration pattern for private-company research
+## 非上市公司任务的迁移方式
 
-When the task is not a stock call, convert the page-1 bullet jobs into:
+如果任务不是股票评级型研报，可以把首页 bullet 任务改写为：
 
-1. company identity and thesis
-2. market or category importance
-3. differentiating capability or product wedge
-4. commercialization path or evidence gap
-5. uncertainty or valuation-boundary note
-6. main thesis-breaking risk
+1. 公司身份与 thesis
+2. 赛道或类别重要性
+3. 差异化能力或产品楔子
+4. 商业化路径或证据缺口
+5. 不确定性或估值边界
+6. 主要 thesis-breaking risk
 
-## Reusable bullet template
+## 可复用的 bullet 模板
 
-Use this as a shape, not a script:
+以下是“形状模板”，不是固定句子：
 
-- `[identity judgment]。公司……，当前最值得关注的是……`
-- `[market-space judgment]。从……来看，行业……，因此……`
-- `[strength judgment]。公司的优势不只在……，更在于……`
-- `[commercialization judgment]。当前的关键不是……，而是……是否能转化为……`
-- `[boundary or uncertainty]。现阶段证据对……支持较强，但对……仍需验证`
-- `[risk]。若……发生，则……可能受损`
+- `[身份判断]。公司……，当前最值得关注的是……`
+- `[赛道判断]。从……来看，行业……，因此……`
+- `[优势判断]。公司的优势不只在……，更在于……`
+- `[商业化判断]。当前的关键不是……，而是……是否能转化为……`
+- `[边界或不确定性]。现阶段证据对……支持较强，但对……仍需验证`
+- `[风险]。若……发生，则……可能受损`
 
-## What not to imitate mechanically
+## 不要机械模仿的部分
 
-- listed-equity recommendation bullets
-- target-price and multiple language
-- house-style decorative tables that are impossible to support in private-company work
+- 上市公司评级 bullet
+- 目标价和估值倍数措辞
+- 无法迁移到非上市公司任务里的首页财务块
 
-Keep the argument-density pattern, not the public-equity residue.
+要保留的是压缩后的论证结构，不是公股残留。

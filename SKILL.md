@@ -12,6 +12,7 @@ Write research reports that feel structured, evidence-backed, and decision-orien
 Read only what is needed for the current task:
 
 - New report from materials:
+  - `references/language-policy.md`
   - `references/input-contract.md`
   - `references/workflow-overview.md`
   - `references/benchmark-archetypes.md`
@@ -23,6 +24,7 @@ Read only what is needed for the current task:
   - `references/evidence-financial-rules.md`
   - `references/quality-scorecard.md`
 - Review an existing draft:
+  - `references/language-policy.md`
   - `references/input-contract.md`
   - `references/workflow-overview.md`
   - `references/quality-scorecard.md`
@@ -30,6 +32,7 @@ Read only what is needed for the current task:
   - `references/style-signatures.md`
   - `references/iteration-and-orchestration.md`
 - Rewrite one chapter or section from zero:
+  - `references/language-policy.md`
   - `references/input-contract.md`
   - `references/report-framework.md`
   - `references/writing-style.md`
@@ -53,6 +56,7 @@ Read only what is needed for the current task:
 5. Give charts and screenshots an evidence job. Never treat them as decoration.
 6. If a long report is underpowered chapter by chapter, rewrite chapters from zero instead of endlessly patching a weak whole draft.
 7. When a fact cannot be confirmed, downgrade the wording instead of pretending certainty.
+8. For Chinese research tasks, default to Chinese output unless the user explicitly asks for English or bilingual delivery.
 
 ## Standard workflow
 
@@ -70,6 +74,7 @@ Write a short startup summary with:
 - company type
 - source-pack status
 - whether deeper research is triggered
+- output language
 
 ### Step 0.5: Decide whether deeper research is required
 

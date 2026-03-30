@@ -1,92 +1,90 @@
-# GF Chapter Opening Patterns
+# 广发章节开篇模式
 
-## Source pages
+## 参考页面
 
-- `materials/*MINIMAX*.pdf` page 5
-- `materials/*第四范式*.pdf` pages 5 and 27
-- `materials/*聚水潭*.pdf` page 4
-- `materials/*晶泰控股*.pdf` page 16
+- `materials/*MINIMAX*.pdf` 第 5 页
+- `materials/*第四范式*.pdf` 第 5 页和第 27 页
+- `materials/*聚水潭*.pdf` 第 4 页
+- `materials/*晶泰控股*.pdf` 第 16 页
 
-## Pattern 1: chapter titles already carry a claim
+## 模式 1：章节名本身就带主张
 
-The sampled reports rarely open with neutral headings.
+这些样本很少使用纯归档式标题。
 
-Their chapter titles usually already contain:
+标题本身通常已经承担了以下某一种功能：
 
-- company identity
-- industry judgment
-- competitive wedge
-- comparison thesis
-- growth inflection
+- 定义公司身份
+- 点出行业判断
+- 指出竞争楔子
+- 给出对比 thesis
+- 说明增长拐点
 
-This means the writing starts under a claim, not under a filing-system label.
+所以正文并不是在一个空标题下面慢慢开始，而是从标题就进入了判断。
 
-## Pattern 2: the first paragraph defines the object and its current stage
+## 模式 2：第一段先定义对象和当前阶段
 
-Typical company-overview opening:
+公司概况类章节的开头，常见动作是：
 
-1. who the company is
-2. what type of company it is
-3. what stage it is in
-4. why that matters to the report
+1. 先说明公司是谁
+2. 再说明它属于什么类型
+3. 再说明它当前所处的阶段
+4. 最后点明这对整篇报告为什么重要
 
-The paragraph does not spend space on soft background before the object is defined.
+也就是说，第一段不是散文化背景，而是“对象定义 + 报告相关性”。
 
-## Pattern 3: the second move expands the business or product matrix
+## 模式 3：第二步通常开始铺产品或业务矩阵
 
-After the first paragraph establishes identity, the next move is often:
+在第一段建立身份之后，下一步常常会进入：
 
-- timeline
-- business matrix
-- product stack
-- management or ownership structure
+- 时间线
+- 业务矩阵
+- 产品栈
+- 管理层或股权结构
 
-This gives the reader a map before deeper argument begins.
+作用是先给读者地图，再展开深入论证。
 
-## Pattern 4: comparison chapters explain why the comparison exists
+## 模式 4：对比章节会先解释“为什么要比”
 
-The Fourth Paradigm report shows a strong comparison-chapter opening.
+第四范式那份报告提供了一个很好的例子。
 
-Its opening does not jump straight into a table.
+它不是一上来就摆对比表，而是先说明：
 
-It first explains:
+- 为什么这个可比对象值得引入
+- 哪些地方相似
+- 哪些地方不同
+- 本章会按什么维度展开
 
-- why the analogue matters
-- where similarity exists
-- where difference exists
-- how the chapter will proceed
+这个模式在需要 analogue/comparison chapter 时特别有用。
 
-That is a useful reusable pattern whenever an analogue chapter is truly needed.
+## 模式 5：章节开头会提前声明证据负担
 
-## Pattern 5: chapter openings should preview evidence burden
+好的章节开头通常会让读者知道后面会看到什么证据：
 
-Good chapter openings in the sampled reports imply what kind of evidence will follow:
+- 产品和业务模块
+- 客户结构
+- 平台架构
+- 外部对比对象
+- 时间线与历史发展
 
-- product and business modules
-- customer structure
-- platform architecture
-- external analogue
-- timeline and historical development
+所以章节第一段其实是在和读者签一个“阅读合同”。
 
-The opening paragraph therefore acts as a contract with the reader.
+## 可复用模板
 
-## Reusable templates
+### 公司概况开头
 
-### Company overview opener
+`[公司]更适合被理解为一家[公司 archetype]。公司当前所处的阶段是[阶段判断]。这之所以重要，是因为整篇报告真正要验证的是[更深层问题]。`
 
-`[company] is best understood as a [company archetype]. The company currently sits at the stage where [stage judgment]. This matters because the report is really testing whether [deeper question].`
+### 行业章节开头
 
-### Industry chapter opener
+`这个行业值得看，不只是因为[表层原因]，更因为[深层结构性原因]。本章将通过[证据路径]来检验这一判断。`
 
-`The industry matters not only because [surface reason], but because [deeper structural reason]. This chapter evaluates that claim through [evidence path].`
+### 对比章节开头
 
-### Comparison chapter opener
+`[对比对象]在这里的作用，不是给报告套壳，而是帮助我们看清目标公司在哪些维度相似、又在哪些维度结构性不同。因此本章将围绕[维度 A]、[维度 B]和[维度 C]展开。`
 
-`[analogue] is useful here not as a shell to copy, but as a reference point that sharpens where the target is similar and where it is structurally different. This chapter therefore compares [dimension A], [dimension B], and [dimension C].`
+## 常见失败模式
 
-## Common failure modes to avoid
-
-- chapter title is generic but paragraph does the real work
-- first paragraph only gives scenery or background
-- no clear statement of what the chapter is trying to prove
-- a comparison chapter exists, but the opening never justifies why the comparison is useful
+- 标题很空，真正判断都压到正文里
+- 第一段只有背景，没有判断
+- 开头没有说明本章到底要证明什么
+- 明明设置了对比章节，但开头没有解释为什么要比

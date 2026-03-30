@@ -71,6 +71,9 @@ Current status:
   - `assets/style-samples/gf-chapter-opening-patterns.md`
   - `assets/style-samples/gf-argument-density-patterns.md`
   - `assets/style-samples/gf-risk-writing-patterns.md`
+- Chinese-first output policy added for output-facing writing layers:
+  - `references/language-policy.md`
+  - style and opening references moved to Chinese constraints first
 
 Exit condition:
 

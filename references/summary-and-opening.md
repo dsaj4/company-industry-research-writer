@@ -1,98 +1,99 @@
-# Summary And Opening
+# 摘要与开篇
 
-Use this reference for executive summaries, report openings, chapter openings, and other places where the report needs to become immediately legible without becoming shallow.
+这份 reference 用于执行摘要、报告开头、章节开头，以及任何需要“上来就能看懂”但又不能变浅的地方。
 
-## Core principle
+## 核心原则
 
-Lead with the real analytical value, not with a generic scene-setting paragraph.
+先写真正的分析价值，不要先写一段任何公司都能套用的场景铺垫。
 
-Borrow the useful part of article-style writing:
+可以借用文章式写法里有用的部分：
 
-- identify the visible hook
-- move quickly to the deeper value
+- 先指出读者已经看见的表面热点
+- 迅速切到更深层的分析问题
 
-Keep the research-report standard:
+但要保留研究报告标准：
 
-- do not oversell
-- do not turn the opening into commentary theater
+- 不渲染
+- 不表演
+- 不把开篇写成评论文章
 
-## Executive summary pattern
+## 执行摘要模式
 
-Aim to answer four questions in a short space:
+尽量在短空间内回答四个问题：
 
-1. why this subject matters now
-2. what the central judgment is
-3. what evidence categories support it
-4. where the main uncertainty sits
+1. 为什么现在值得看
+2. 核心判断是什么
+3. 主要靠哪些证据类别支撑
+4. 最大的不确定性在哪里
 
-Good executive summaries do not repeat the table of contents. They compress the report's decision logic.
+好的执行摘要不是目录复述，而是把整篇报告的决策逻辑压缩出来。
 
-## Opening paragraph pattern
+## 开篇首段模式
 
-A strong opening usually has three moves:
+一个好的开篇通常有三个动作：
 
-1. state the visible hook
-2. state the deeper analytical question
-3. state the report's judgment or angle
+1. 先说表面热点或显性钩子
+2. 再说更深层的分析问题
+3. 最后给出报告判断或分析角度
 
-Example shape:
+示例形状：
 
-`Market attention has focused on the company's recent product launch. The more important question, however, is whether that launch signals a broader shift in its commercialization path. Our view is that it does, but the evidence is stronger on distribution and pricing than on durable monetization.`
+`市场关注点可能集中在公司最近一次产品发布，但更重要的问题是，这次发布是否意味着其商业化路径开始发生结构性变化。我们的判断是有一定迹象，但当前证据对分发和定价的支持强于对持续变现能力的支持。`
 
-## Chapter opening pattern
+## 章节开头模式
 
-For each major chapter:
+每个主要章节，优先用三句完成定向：
 
-1. first sentence: chapter judgment
-2. second sentence: what question the chapter answers
-3. third sentence: how the answer will be demonstrated
+1. 第一句：本章判断
+2. 第二句：本章要回答什么问题
+3. 第三句：本章准备用什么证据回答
 
-Example shape:
+示例形状：
 
-`The company's competitive position is stronger in product reach than in fully proven monetization. This chapter tests that claim across product adoption, ecosystem signals, and early pricing evidence. Taken together, these signals suggest real leverage, but not yet a fully validated revenue engine.`
+`公司的竞争位置在产品触达上强于在商业化验证上。本章将从产品采用、生态信号和早期定价证据三个方面检验这一判断。综合来看，这些信号说明公司具备真实杠杆，但尚未形成完全验证的收入引擎。`
 
-## Translate dense concepts without diluting them
+## 技术与金融概念的降噪写法
 
-When a technical or financial concept is important:
+当一个技术或财务概念很重要时：
 
-1. keep the precise term
-2. explain it once in plain language
-3. state why it matters to the thesis
+1. 保留准确术语
+2. 用一句中文把它讲明白
+3. 立刻说明它为什么影响 thesis
 
-Example shape:
+示例形状：
 
-`Inference cost matters because it shapes whether usage growth can turn into economically attractive scale. In simple terms, it is the cost of serving model output once users actually start using the product heavily.`
+`推理成本之所以重要，是因为它决定了用户增长能否转化为有经济吸引力的规模。简单说，它就是模型真正被大量使用之后，每次提供输出所带来的服务成本。`
 
-## Using quotes or source language
+## 引用与原话的使用
 
-Use a quote when it does one of these jobs:
+只有当一句原话承担以下任务之一时才值得引用：
 
-- reveals management intent
-- captures a market narrative worth testing
-- states a positioning claim that the report will examine
+- 揭示管理层意图
+- 表达一个值得检验的市场叙事
+- 提出一个报告将要验证的定位主张
 
-After the quote:
+引用之后要立刻补两件事：
 
-- interpret what it means
-- state whether the evidence supports it
+- 这句话意味着什么
+- 当前证据是否支持它
 
-Do not drop quotes into the report without analytical follow-through.
+不要把引语丢进正文后就结束。
 
-## Avoid these opening mistakes
+## 开篇常见错误
 
-- opening with generic market background that could fit any company
-- opening with hype or certainty
-- opening with three long paragraphs before any judgment appears
-- opening with a quote and no interpretation
-- opening with a hook that never connects back to the thesis
+- 用任何公司都能套的行业背景开头
+- 一上来就写得很满、很像宣传
+- 三大段过去了还没有出现真正判断
+- 只给引语，不给解释
+- 有钩子，但后面没有回到 thesis
 
-## Recommended use cases
+## 推荐使用场景
 
-Use this reference for:
+这份 reference 适合用于：
 
-- report title page conclusions
-- executive summary
-- chapter openers
-- section recaps
+- 首页核心结论
+- 执行摘要
+- 章节开篇
+- 小节收束
 
-Do not use it to turn the whole report into article-style prose. It is a targeted clarity layer.
+不要用它把整篇报告都写成文章体，它是一个“提高清晰度”的局部增强层。

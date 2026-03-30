@@ -1,43 +1,43 @@
-# Style Samples
+# 风格样本
 
-Use this folder for derived style anchors from real broker reports.
+这个目录用于保存从真实券商研报中提炼出的风格锚点。
 
-These files should help the skill preserve writing level after thesis, outline, and evidence planning are already in place.
+它们的作用不是替代 thesis、结构和证据规划，而是在这些已经成立之后，把成文质量往“像成熟研报”方向推。
 
-## Current sample set
+## 当前样本集
 
 - `gf-front-page-and-core-points.md`
 - `gf-chapter-opening-patterns.md`
 - `gf-argument-density-patterns.md`
 - `gf-risk-writing-patterns.md`
 
-## Source policy
+## 来源规则
 
-Do not copy large passages from raw reports into this folder.
+不要把原始研报的大段文字直接搬进来。
 
-Instead:
+更好的做法是：
 
-- cite which report and pages were used
-- paraphrase the reusable writing pattern
-- convert it into a reusable template or checklist
+- 标明参考了哪份研报、哪些页面
+- 提炼可复用的写法
+- 把它转换成模板、检查项或迁移规则
 
-## How to use
+## 使用方式
 
-When drafting or redrafting:
+在起草或重写时：
 
-1. lock thesis and evidence first
-2. load one sample file that matches the section being written
-3. imitate the writing move, not the company-specific content
+1. 先锁定 thesis 和证据任务
+2. 再选一份与当前章节最相关的风格样本
+3. 模仿写作动作，不模仿具体公司内容
 
-## What belongs here
+## 适合放进来的内容
 
-- page-1 core-point patterns
-- chapter opening patterns
-- risk-section patterns
-- high-density paragraph patterns
+- 首页核心观点的组织方式
+- 章节开头的起句方式
+- 高密度论证段的写法
+- 风险提示的写法
 
-## What should stay out
+## 不要放进来的内容
 
-- long copyrighted excerpts
-- company-specific facts with no reusable style lesson
-- generic writing advice that is not traceable to a real report pattern
+- 长篇受版权保护的原文
+- 没有复用价值的公司事实
+- 和真实研报写法无关的抽象写作建议

@@ -1,78 +1,78 @@
-# GF Argument Density Patterns
+# 广发论证密度模式
 
-## Source pages
+## 参考页面
 
-- `materials/*MINIMAX*.pdf` pages 1 and 5
-- `materials/*第四范式*.pdf` pages 1, 5, and 27
-- `materials/*聚水潭*.pdf` pages 1 and 4
-- `materials/*晶泰控股*.pdf` pages 1 and 16
+- `materials/*MINIMAX*.pdf` 第 1 页和第 5 页
+- `materials/*第四范式*.pdf` 第 1 页、第 5 页和第 27 页
+- `materials/*聚水潭*.pdf` 第 1 页和第 4 页
+- `materials/*晶泰控股*.pdf` 第 1 页和第 16 页
 
-## Why these reports feel dense
+## 为什么这些研报读起来“密”
 
-They usually compress four things into a short span:
+它们通常在一个不算长的篇幅里同时压进去四件事：
 
-1. the judgment
-2. the mechanism
-3. the evidence or factual support
-4. the implication
+1. 判断
+2. 机制
+3. 证据
+4. 含义
 
-This is analytical density, not decorative density.
+这是一种分析密度，不是辞藻密度。
 
-## Common sentence moves
+## 常见句法动作
 
-### 1. noun-phrase judgment first
+### 1. 先用名词性判断起句
 
-The sentence often starts from a compressed claim:
+很多句子会先给一个压缩判断：
 
-- a leader
-- a rare pureplay
-- a platform-centered company
-- a new growth curve
+- 龙头
+- 稀缺 pureplay
+- 平台型公司
+- 新成长曲线
 
-Then the sentence expands into why that label is justified.
+然后再解释为什么这个标签成立。
 
-### 2. paired-clause explanation
+### 2. 常用成对结构推进
 
-Many paragraphs move with one of these logical shapes:
+这些研报经常用这种逻辑节奏：
 
-- `not only A, but B`
-- `from product experience..., from commercial logic...`
-- `on the one hand..., on the other hand...`
-- `after proving X, the company can extend into Y`
+- `不只 A，更在于 B`
+- `从产品体验看……，从商业逻辑看……`
+- `一方面……，另一方面……`
+- `在验证 X 之后，公司有望延伸至 Y`
 
-This makes the prose feel analytical instead of purely descriptive.
+这会让句子显得在分析，而不只是描述。
 
-### 3. evidence drops are specific and timed
+### 3. 证据落点具体而且带时间感
 
-The sampled reports often anchor the argument with:
+常见锚点包括：
 
-- a year
-- a launch point
-- a customer count
-- a market-share or retention fact
-- a business-module split
+- 某一年
+- 某次发布或上市
+- 客户数
+- 市占率、留存率、付费率
+- 业务模块拆分
 
-That keeps paragraphs from floating.
+这样段落不会漂。
 
-## Preferred paragraph pattern
+## 推荐段落结构
 
-Use this as a default body-paragraph shape:
+一个默认可用的正文段落形状：
 
-1. judgment sentence
-2. mechanism sentence
-3. evidence sentence or figure anchor
-4. implication sentence
+1. 判断句
+2. 机制句
+3. 证据句或图表锚点
+4. 含义句
 
-## Useful compression habits
+## 让段落变密的实用习惯
 
-- use one paragraph for one claim
-- let numbers prove the point once; do not repeat them in three phrasings
-- explain why the fact matters immediately after citing it
-- when there are two dimensions, compare them directly instead of serially wandering
+- 一段只服务一个主张
+- 数字证明一次就够，不要换三种说法重复
+- 引完事实后立刻解释为什么重要
+- 如果在比两个维度，直接比较，不要绕着走
 
-## Bounded-confidence vocabulary
+## 克制型置信度词
 
-The reports often sound strong without overstating:
+这些研报经常用以下词来保持力度而不过度：
 
 - `有望`
 - `逐步`
@@ -81,28 +81,20 @@ The reports often sound strong without overstating:
 - `阶段性`
 - `仍需观察`
 
-For English drafting equivalents, think:
+## 可复用的升级规则
 
-- `appears positioned to`
-- `is beginning to`
-- `has the basis to`
-- `is better supported on X than on Y`
-- `remains early in`
+当一段写弱了，不要先加形容词。
 
-## Reusable upgrade rule
+优先按这个顺序修：
 
-If a paragraph feels weak, do not first add adjectives.
+1. sharpen 开头判断
+2. 补上缺失机制
+3. 加一个事实或图表锚点
+4. 删掉重复
 
-Try this repair order:
+## 常见反模式
 
-1. sharpen the opening judgment
-2. add the missing mechanism
-3. add one concrete fact or figure anchor
-4. trim repetition
-
-## Common anti-patterns
-
-- generic praise with no mechanism
-- numbers dropped in with no implication
-- repeating the same positive claim in every sentence
-- a paragraph that never reveals what it is trying to prove
+- 只有赞美，没有机制
+- 数字出现了，但没解释为什么重要
+- 同一个正面判断在一段里重复三次
+- 整段写完了还不知道它到底想证明什么

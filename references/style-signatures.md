@@ -1,138 +1,138 @@
-# Style Signatures
+# 风格签名
 
-Use this reference when the report already has a usable thesis and evidence plan, but still needs to sound like a mature research note instead of a generic AI summary.
+当报告的 thesis、结构和证据计划已经基本可用，但成文还不像成熟中文研报时，读取这份 reference。
 
-This file does not replace `references/writing-style.md`. It deepens it using patterns distilled from current GF Securities reports in `materials/`.
+它不是用来替代 `references/writing-style.md`，而是用来把当前 `materials/` 中真实广发研报的写法抽成可复用签名。
 
-## Source base used for this extraction
+## 本次提取所依赖的原始来源
 
-Primary style anchors:
+主要风格锚点：
 
-- GF Securities `MINIMAX` report:
-  - page 1 for title page and core-point block
-  - page 5 for company-overview opening
-  - page 34 for risk writing
-- GF Securities `Fourth Paradigm` report:
-  - page 1 for title page and core-point block
-  - page 5 for investment-highlights page
-  - page 27 for comparison-chapter opening
-  - page 48 for risk writing
-- GF Securities `Jushuitan` report:
-  - page 1 for title page and core-point block
-  - page 4 for company-overview opening
-  - page 20 for risk writing
-- GF Securities `XtalPi` report:
-  - page 1 for title page and core-point block
-  - page 16 for company-overview opening
-  - page 36 for risk writing
+- 广发 `MINIMAX` 研报：
+  - 第 1 页：首页与核心观点
+  - 第 5 页：公司概况开篇
+  - 第 34 页：风险提示
+- 广发 `第四范式` 研报：
+  - 第 1 页：首页与核心观点
+  - 第 5 页：投资要点
+  - 第 27 页：对比章节开篇
+  - 第 48 页：风险提示
+- 广发 `聚水潭` 研报：
+  - 第 1 页：首页与核心观点
+  - 第 4 页：公司概况开篇
+  - 第 20 页：风险提示
+- 广发 `晶泰控股` 研报：
+  - 第 1 页：首页与核心观点
+  - 第 16 页：公司概况开篇
+  - 第 36 页：风险提示
 
-## What this layer is trying to preserve
+## 这一层到底想保留什么
 
-The current reports show that research style is not just tone. It is the combination of:
+真实研报的“风格”并不只是语气，而是以下几件事同时成立：
 
-1. high-density summary structure
-2. judgment-first chapter openings
-3. paragraph-level analytical compression
-4. restrained but not weak confidence
-5. figure-text coupling
-6. compact risk writing
+1. 首页结论密度高
+2. 章节开头判断先行
+3. 段落压缩度高
+4. 语气克制但不软
+5. 图表和正文咬合
+6. 风险写法短、准、收得住
 
-If we preserve only wording, the skill becomes a surface imitator.
+如果只保留措辞，skill 会变成表面模仿器。
 
-If we preserve only process, the skill becomes structurally correct but flat.
+如果只保留流程，skill 会变成结构正确但文字平。
 
-This layer is meant to keep both.
+这份文件就是为了把两者接起来。
 
-## Signature 1: front page should read like a compressed thesis tree
+## 签名 1：首页应该像被压缩过的 thesis tree
 
-Across the sampled reports, page 1 is not a soft introduction. It is a compressed argument map.
+这些样本的第 1 页都不是“介绍页”，而是高度压缩后的论点地图。
 
-Common shape:
+常见结构：
 
-1. subject and angle in the title
-2. `核心观点` block with 4 to 6 bullets
-3. final bullets reserved for forecast or recommendation and risks
-4. every bullet carries a different job instead of repeating the same praise
+1. 标题先给对象和分析角度
+2. `核心观点` 通常 4 到 6 个 bullet
+3. 最后一个或两个 bullet 常常留给盈利预测/投资建议与风险
+4. 每个 bullet 各司其职，不会反复夸同一件事
 
-Typical bullet jobs:
+常见 bullet 任务：
 
-- company identity and positioning
-- industry or market space
-- core advantage or wedge
-- commercialization, expansion, or second-curve logic
-- recommendation or valuation block
-- risk reminder
+- 公司身份和定位
+- 行业空间或赛道意义
+- 核心优势或楔子
+- 商业化、出海或第二曲线
+- 估值/建议
+- 风险提示
 
-Application rule:
+迁移规则：
 
-- For private-company work, keep the density and role separation.
-- Remove public-equity machinery, but keep the compressed argument architecture.
+- 非上市公司任务，要保留这种高密度分工
+- 但要去掉公股评级、目标价等残留
 
-## Signature 2: headings carry judgment, not filing-system labels
+## 签名 2：标题和章节名本身就带判断
 
-The sampled reports rarely use dead headings such as `business analysis` or `market overview`.
+这些研报很少使用纯归档式标题，比如“业务分析”“市场概况”。
 
-Their headings usually do one of these jobs:
+它们的标题往往直接承担一个判断：
 
-- define the company's strategic identity
-- state the wedge directly
-- declare the chapter's thesis
-- frame a comparison that sharpens the thesis
+- 定义公司是什么
+- 直接点出楔子
+- 说明本章 thesis
+- 引入一个能帮助 sharpen thesis 的对比
 
-Good migrated pattern:
+迁移规则：
 
-- make the heading itself sound like a mini-judgment
-- let the opening paragraph explain why that judgment matters
+- 标题本身尽量像 mini-judgment
+- 第一段再解释这个 judgment 为什么成立
 
-## Signature 3: chapter openings move from verdict to scope to evidence path
+## 签名 3：章节开头通常是“判断 -> 范围 -> 证据路径”
 
-Strong chapter openings in the sampled reports usually do three things quickly:
+强章节开头通常很快做完三件事：
 
-1. state the chapter judgment
-2. define the object or stage clearly
-3. signal what evidence or submodules will support the chapter
+1. 本章判断是什么
+2. 本章对象或阶段是什么
+3. 本章准备用什么证据支撑
 
-This is especially visible in:
+这个模式在以下位置最明显：
 
-- company-overview openings
-- comparison-chapter openings
-- industry-thesis openings
+- 公司概况开头
+- 对比章节开头
+- 行业 thesis 开头
 
-Application rule:
+迁移规则：
 
-- The first paragraph of a chapter should make the reader feel oriented.
-- Avoid spending the first paragraph on scenery or general market background.
+- 章节第一段要先让读者定向
+- 不要先写一段泛背景再慢慢进入判断
 
-## Signature 4: paragraph density comes from mechanism, not adjectives
+## 签名 4：段落密度主要来自机制，不来自形容词
 
-The reports feel dense because the paragraphs compress:
+这些研报读起来“密”，是因为段落里压缩了：
 
-- what the company is
-- why that matters
-- how it works
-- what evidence supports it
+- 公司是什么
+- 为什么重要
+- 机制是什么
+- 证据在哪里
 
-They do not feel dense because they stack adjectives.
+而不是因为堆了很多高强度形容词。
 
-Preferred density drivers:
+推荐的密度来源：
 
-- time markers
-- product or business modules
-- customer or adoption facts
-- explicit mechanism clauses
-- one clear implication at the end
+- 时间点
+- 产品或业务模块
+- 客户或采用事实
+- 显式机制从句
+- 结尾一句含义
 
-Avoid:
+要避免：
 
-- empty intensifiers
-- slogan repetition
-- praise without mechanism
+- 空泛增强词
+- 口号式重复
+- 没有机制的赞美
 
-## Signature 5: confident, but always slightly bounded
+## 签名 5：语气有判断，但总留一点边界
 
-The sampled reports are not timid, but they are also not written like marketing.
+这些样本并不胆小，但也明显不是营销稿。
 
-They regularly use bounded conviction:
+常见的边界表达包括：
 
 - `趋前`
 - `有望`
@@ -141,69 +141,69 @@ They regularly use bounded conviction:
 - `仍待观察`
 - `阶段性`
 
-This creates a useful research feel:
+这会带来一种很重要的研报感：
 
-- the report sounds decisive
-- but it still leaves room for uncertainty and future verification
+- 判断是明确的
+- 但仍然给未来验证留空间
 
-Application rule:
+迁移规则：
 
-- when the evidence is partial, downgrade the verb rather than deleting the thesis
-- keep the main judgment, but narrow its confidence scope
+- 当证据不足时，不要删掉判断
+- 更好的做法是降级动词、缩窄置信度边界
 
-## Signature 6: figures are part of the sentence logic
+## 签名 6：图表是句子逻辑的一部分
 
-In the sampled reports, charts and tables are inserted right after a claim they are meant to support.
+这些研报里的图表和表格，往往紧跟在某个判断后面。
 
-That creates a recurring flow:
+常见流动是：
 
-1. judgment sentence
-2. evidence paragraph or figure
-3. interpretation sentence
+1. 先有判断句
+2. 再给图表或证据段
+3. 再补一句解释
 
-The figure is doing chapter work, not decoration.
+所以图表是在做章节工作，而不是版面装饰。
 
-Application rule:
+迁移规则：
 
-- every figure anchor should answer: what sentence becomes more believable because this figure exists?
+- 每个图表锚点都要能回答：如果没有这张图，哪一句话会明显变弱？
 
-## Signature 7: risk writing is short, causal, and non-theatrical
+## 签名 7：风险写法短、因果清楚、不过度戏剧化
 
-The risk sections are usually compact:
+风险部分通常很紧：
 
-- one short heading per risk
-- one short paragraph
-- trigger -> mechanism -> consequence
+- 一个风险一个小标题
+- 一段短解释
+- 触发条件 -> 影响机制 -> 后果
 
-They do not:
+它们通常不会：
 
-- moralize
-- repeat the whole thesis
-- introduce new major claims
+- 情绪化
+- 重复整篇 thesis
+- 突然引入正文没讲过的大主题
 
-Application rule:
+迁移规则：
 
-- write each risk as a specific failure path
-- name what changes, why it matters, and what it could do to the thesis
+- 每个风险写成具体 failure path
+- 说明什么变了、为什么重要、会怎样冲击 thesis
 
-## How to use this reference inside the workflow
+## 在 workflow 中怎么用
 
-Use it after `01_calibration.md` and `02_thesis.md` are already stable.
+建议在 `01_calibration.md` 和 `02_thesis.md` 基本稳定后再读这份文件。
 
-Recommended order:
+推荐顺序：
 
-1. thesis and chapter jobs first
-2. one style sample file from `assets/style-samples/`
-3. draft or redraft the relevant section
-4. check whether the prose now feels denser without becoming hype
+1. 先锁定 thesis 和章节任务
+2. 再读 `assets/style-samples/` 里与当前部分最匹配的一份
+3. 重写该段或该章
+4. 检查文字是否更密，但没有变成夸张文风
 
-## Non-transfer warning
+## 非迁移提醒
 
-Do not imitate these directly from listed-equity samples:
+以下内容不要从上市公司 benchmark 里直接继承：
 
-- stock rating language
-- target-price phrasing
-- valuation-finality tone
-- company-specific financial-summary blocks
+- 评级语言
+- 目标价语气
+- 带有结论终局感的估值措辞
+- 公司专属财务摘要块
 
-Keep the style signatures. Drop the listed-equity residue unless the task really is a listed-equity report.
+保留风格签名，剥离上市公司残留。

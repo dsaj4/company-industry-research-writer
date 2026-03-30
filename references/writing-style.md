@@ -1,129 +1,126 @@
-# Writing Style
+# 写作风格
 
-This reference defines the default prose feel.
+这份 reference 定义中文研报成文时的默认语感。
 
-For stronger style calibration derived from real broker reports, also read:
+如果要进一步贴近真实券商研报风格，继续读取：
 
 - `references/style-signatures.md`
-- one relevant file under `assets/style-samples/`
+- `assets/style-samples/` 下与当前任务最相关的一份文件
 
-Use this file as the compact default. Use the other files when writing quality, compression, or finish really matters.
+这份文件负责给出紧凑默认约束，`style-signatures` 和 `style-samples` 负责把真实研报里的写法补进来。
 
-## Target feel
+## 目标语感
 
-- professional
-- restrained
-- judgment-first
-- evidence-backed
-- readable at chapter scale
-- analytically dense without sounding crowded
+- 专业
+- 克制
+- 判断先行
+- 证据支撑
+- 章节级可读
+- 信息密度高但不拥挤
 
-The report should sound credible, not excited.
+报告应该让人觉得可信，而不是兴奋。
 
-## Preferred voice
+## 推荐语气
 
-- make clear analytical judgments
-- avoid emotional exaggeration
-- use explicit uncertainty when needed
-- compress filler and repetition
-- bind every strong statement to a mechanism or evidence path
+- 直接给出分析判断
+- 避免情绪化夸张
+- 需要时明确表达不确定性
+- 压缩废话和重复
+- 任何强判断都尽量绑定机制或证据路径
 
-## Preferred wording moves
+## 推荐句法动作
 
-Default motion:
+默认推进顺序：
 
-1. state the judgment
-2. name the mechanism
-3. cite evidence
-4. explain the implication
+1. 先说判断
+2. 再说机制
+3. 再给证据
+4. 最后说含义
 
-Useful transitions:
+常用连接动作：
 
-- `we judge`
-- `specifically`
-- `taken together`
-- `this suggests`
-- `this matters because`
-- `the more important question is`
-- `the real issue is whether`
+- `我们判断`
+- `具体来看`
+- `综合来看`
+- `这表明`
+- `这之所以重要，是因为`
+- `更重要的问题是`
+- `真正需要回答的是`
 
-## Summary and opening pattern
+## 摘要与开篇
 
-For page 1, executive summaries, and chapter openers:
+对于首页、摘要、章节开头：
 
-- lead with the real judgment
-- move quickly from the visible hook to the deeper analytical question
-- keep the first paragraph doing orientation work
+- 先给真正的判断
+- 尽快从表面热点切到更深层问题
+- 第一段就要完成定向，而不是铺陈气氛
 
-For detailed opening patterns, use `references/summary-and-opening.md`.
+更细的开篇写法，见 `references/summary-and-opening.md`。
 
-## Chapter openings
+## 章节开头
 
-The first sentence of a chapter should usually contain a judgment, not a scene-setting paragraph.
+章节第一句通常应该先给判断，而不是先写背景。
 
-Example shape:
+示例形状：
 
-`The company's current edge is not just product visibility, but the way product, platform, and distribution reinforce each other.`
+`公司的当前优势不只是产品可见度，更在于产品、平台和分发能力之间开始形成相互强化。`
 
-## Paragraph density
+## 段落密度
 
-- keep each paragraph centered on one claim
-- let mechanism and evidence carry density
-- use one implication sentence to close the point
-- do not turn the whole report into bullet sludge
+- 每段尽量只服务一个核心主张
+- 让机制和证据承担密度，而不是形容词
+- 用一句含义句收住这一段
+- 不要把全文写成“项目符号堆积”
 
-If a paragraph feels weak, fix in this order:
+如果一段写弱了，按这个顺序修：
 
-1. sharpen the opening judgment
-2. add the missing mechanism
-3. add one hard fact or figure anchor
-4. remove repetition
+1. 先 sharpen 开头判断
+2. 补缺失的机制
+3. 加一个硬事实或图表锚点
+4. 删除重复表述
 
-## Bounded confidence
+## 置信度表达
 
-Prefer research-style bounded confidence over hype:
+优先使用研究式克制表达，而不是绝对化表达。
 
-- `appears`
-- `has the basis to`
-- `is beginning to`
-- `is better supported on X than on Y`
-- `remains early in`
-
-Chinese drafting equivalents often include:
+优先词：
 
 - `有望`
 - `逐步`
 - `趋前`
 - `具备`
 - `仍需观察`
+- `更强的证据在……而不在……`
 
-## Avoid by default
+目标不是把判断写弱，而是把判断写准。
 
-- hype language
-- rhetorical questions
-- self-answering question patterns
-- empty summary phrases
-- three-synonym piles
-- decorative charts with no analytical job
+## 默认避免
 
-Examples:
+- 夸张词
+- 反问句
+- 自问自答式表达
+- 空泛总结句
+- 三个近义词连用
+- 没有分析任务的装饰性图表
 
-- Avoid: `This is a revolutionary and game-changing company.`
-- Prefer: `The company appears differentiated on X, but the evidence is stronger on Y than on Z.`
+例子：
 
-- Avoid: `Why does this matter? It matters because...`
-- Prefer: `This matters because...`
+- 避免：`这是一家极具颠覆性和革命性的公司。`
+- 更好：`公司在 X 上看起来具备差异化，但当前证据对 Y 的支持强于对 Z 的支持。`
 
-## Chart usage
+- 避免：`这为什么重要？因为……`
+- 更好：`这之所以重要，是因为……`
 
-Use a chart only when it can help prove a claim.
+## 图表使用
 
-Recommended chart flow:
+图表只在能够帮助证明某个判断时才使用。
 
-1. pre-chart judgment
-2. chart or screenshot
-3. post-chart interpretation
+推荐流程：
 
-If the figure is not embedded yet, use a hard anchor:
+1. 图前判断
+2. 图表或截图
+3. 图后解释
 
-`[Figure Anchor: SimilarWeb traffic trend for the target product]`
+如果图还没放进去，先用硬锚点占位：
+
+`[图表锚点：目标产品 SimilarWeb 流量趋势]`

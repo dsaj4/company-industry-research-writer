@@ -1,85 +1,83 @@
-# GF Risk Writing Patterns
+# 广发风险写作模式
 
-## Source pages
+## 参考页面
 
-- `materials/*MINIMAX*.pdf` page 34
-- `materials/*第四范式*.pdf` page 48
-- `materials/*聚水潭*.pdf` page 20
-- `materials/*晶泰控股*.pdf` page 36
+- `materials/*MINIMAX*.pdf` 第 34 页
+- `materials/*第四范式*.pdf` 第 48 页
+- `materials/*聚水潭*.pdf` 第 20 页
+- `materials/*晶泰控股*.pdf` 第 36 页
 
-## What repeats across these reports
+## 这些风险段的共同点
 
-### 1. one risk, one heading
+### 1. 一个风险一个小标题
 
-The sampled reports keep risk sections modular:
+样本里的风险部分通常都很模块化：
 
-- one short risk heading
-- one short explanatory paragraph
+- 一个短标题
+- 一段短解释
 
-That makes the section easy to scan and prevents the risk chapter from becoming a vague caveat wall.
+这样读者很好扫，也避免整段风险写成泛泛免责声明。
 
-## 2. each risk follows a causal chain
+## 2. 每个风险都沿着因果链写
 
-Typical internal motion:
+常见内部节奏：
 
-1. trigger or condition changes
-2. business mechanism is affected
-3. thesis, revenue, margin, or execution suffers
+1. 什么条件变了
+2. 通过什么机制影响业务
+3. 最终怎样伤到 thesis、收入、利润或执行节奏
 
-The strongest risk paragraphs are causal, not emotional.
+最好的风险段是因果清楚，而不是情绪化。
 
-## 3. risks stay close to the report thesis
+## 3. 风险始终贴着 thesis 写
 
-The sampled risk sections do not introduce random downside items.
+这些研报不会突然塞很多和正文无关的 downside。
 
-They stay tied to the report's main argument:
+它们通常紧贴主论点：
 
-- R&D conversion risk for a model company
-- payment willingness and sales-efficiency risk for an enterprise platform
-- customer spending and industry-structure risk for SaaS
-- commercialization risk for an early-stage AI company
+- 模型公司的研发转化风险
+- 企业平台公司的支付意愿和销售效率风险
+- SaaS 公司的客户支出和行业格局风险
+- 早期 AI 公司的商业化落地风险
 
-## 4. wording is restrained
+## 4. 用词很克制
 
-The reports usually do not dramatize the downside.
-
-They prefer:
+这些样本通常不用戏剧化表达，而更偏向：
 
 - `可能`
 - `若`
 - `面临`
 - `影响`
 
-That keeps the risk section credible.
+这会让风险部分更像研究，而不是危言耸听。
 
-## Reusable template
+## 可复用模板
 
-### Risk heading
+### 风险标题
 
-`[specific factor]风险`
+`[具体因素]风险`
 
-### Risk paragraph
+### 风险段落
 
-`若[trigger]，则[mechanism]可能受扰，从而对[thesis-linked consequence]产生影响。`
+`若[触发条件]，则[影响机制]可能受扰，从而对[与 thesis 相关的后果]产生影响。`
 
-Expanded version:
+扩展版：
 
-`若[external or internal change]，公司在[product/customer/commercialization link]上的推进可能放缓，从而影响[收入/利润/验证节奏/thesis confidence]。`
+`若[外部或内部变化]，公司在[产品/客户/商业化链路]上的推进可能放缓，从而影响[收入/利润/验证节奏/thesis 置信度]。`
 
-## Good migration rule for private-company work
+## 非上市公司任务中的迁移规则
 
-When there is no formal valuation section, risk writing should still close the thesis loop.
+即便没有正式估值章节，风险写作仍然要负责“闭合 thesis”。
 
-Use risks to test:
+可以优先检验：
 
-- whether the thesis is too early
-- whether commercialization is under-evidenced
-- whether the category tailwind is overstated
-- whether customer adoption or product conversion is less durable than it looks
+- thesis 是否过早
+- 商业化是否证据不足
+- 行业顺风是否被高估
+- 客户采用或产品转化是否不够 durable
 
-## Common failure modes
+## 常见失败模式
 
-- risks are only nouns with no causal explanation
-- risks are too generic to challenge the thesis
-- risks introduce new themes that the report never discussed
-- risks become long narrative essays instead of compact failure paths
+- 风险只有名词，没有机制
+- 风险太泛，无法真正挑战 thesis
+- 风险里突然出现正文没讲过的新主题
+- 风险写成长篇解释，而不是紧凑 failure path

@@ -18,6 +18,7 @@ The skill now has two preservation layers:
 
 - `SKILL.md`: main skill entrypoint
 - `references/`: rules loaded on demand
+- `references/language-policy.md`: which layers should default to Chinese for Chinese research tasks
 - `references/input-contract.md`: how to stabilize the brief at run start
 - `references/research-trigger.md`: when deeper research is required
 - `references/summary-and-opening.md`: how to write strong openings and executive summaries

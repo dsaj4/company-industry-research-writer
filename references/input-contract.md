@@ -1,120 +1,141 @@
-# Input Contract
+# 输入契约
 
-Use this reference at the beginning of a run so the report starts from a stable brief instead of vague momentum.
+这份 reference 用于每次 run 的起点，让报告从一个稳定任务单开始，而不是从模糊动量开始。
 
-## Minimum input set
+## 最小输入集
 
-Capture these items in `00_request.md`:
+在 `00_request.md` 里至少写清这几项：
 
-1. target object
-2. task type
-3. audience
-4. expected deliverable
-5. benchmark sample if any
-6. source pack or materials available
-7. constraints and deadlines
+1. 研究对象
+2. 任务类型
+3. 目标受众
+4. 预期交付物
+5. benchmark 样本（如果有）
+6. 当前 source pack 或材料范围
+7. 约束与截止时间
+8. 输出语言
 
-## Task types
+## 任务类型
 
-Pick one primary mode:
+先选一个主模式：
 
-- full company report
-- industry landscape report
-- chapter-only rewrite
-- draft diagnosis and revision
-- skill-upgrade review from human edits
+- 完整公司深度报告
+- 行业格局/专题报告
+- 单章重写
+- 旧稿诊断与修订
+- 基于人工改稿的 skill 升级复盘
 
-If the task spans multiple modes, choose the primary one and note the secondary mode.
+如果一个任务跨了多个模式，先写主模式，再标注次模式。
 
-## Audience options
+## 受众类型
 
-Record the main reader:
+记录主要读者：
 
-- internal research use
-- investor-facing
-- management briefing
-- general professional audience
-- technical audience
+- 内部研究使用
+- 投资者阅读
+- 管理层简报
+- 一般专业读者
+- 技术型读者
 
-Audience affects compression, jargon tolerance, and how much context has to be surfaced.
+受众会影响：
 
-## Deliverable options
+- 压缩程度
+- 术语容忍度
+- 需要补多少背景解释
 
-Choose one main output:
+## 交付物类型
 
-- outline only
-- full markdown report
-- chapter revision
+优先确定一个主交付物：
+
+- 仅 outline
+- 完整 markdown 报告
+- 单章修订稿
 - review memo
-- scorecard and next-action list
-- skill upgrade note
+- scorecard 与 next actions
+- skill 升级 note
 
-## Benchmark handling
+## 语言要求
 
-If a benchmark exists, capture:
+默认规则：
 
-- file or link
-- what to imitate
-- what must not be copied
+- 中文研报任务默认输出中文
+- 标题、摘要、章节名、图表说明、风险提示默认用中文
+- 若保留英文术语，优先“术语 + 中文解释”
 
-If no benchmark exists, state the desired reference style in one line:
+仅在以下情况改为非中文：
 
-- equity-style
-- institutional research memo
-- strategy brief
-- technical market analysis
+- 用户明确要求英文
+- 任务对象就是英文投资 memo
+- 对外双语交付是明确需求
 
-## Source pack status
+## Benchmark 处理
 
-Choose the nearest fit:
+如果存在 benchmark，记录：
 
-- rich pack: materials already cover most core claims
-- partial pack: enough to outline, not enough to finalize
-- thin pack: requires deeper research before drafting
-- draft-first: there is already a draft to review or rebuild
+- 文件或链接
+- 要模仿什么
+- 什么不能复制
 
-## Company-type declaration
+如果没有 benchmark，用一句话写期望参考风格：
 
-Always declare one:
+- 券商深度风格
+- 机构研究 memo
+- 战略简报
+- 技术市场分析
 
-- listed company
-- private company
-- mixed comparison set
+## Source pack 状态
 
-This controls financial wording and valuation discipline.
+四选一，取最接近的：
 
-## Length and finish level
+- rich pack：大部分核心主张都有材料支撑
+- partial pack：足够出 outline，但不足以直接定稿
+- thin pack：需要先做 deeper research
+- draft-first：已经有旧稿，需要 review 或重构
 
-Record both:
+## 公司类型声明
 
-- length target: short / medium / full
-- finish target: rough / working / polished / final
+必须明确写一个：
 
-Suggested default:
+- 上市公司
+- 非上市公司
+- 混合对比对象
 
-- full company report -> `full` + `polished`
-- draft diagnosis -> `medium` + `working`
-- chapter rewrite -> `medium` + `polished`
+这会直接影响财务措辞和估值纪律。
 
-## Default assumptions when the brief is incomplete
+## 篇幅与完成度
 
-If the user does not specify:
+这两项都要写：
 
-- audience: assume internal research use
-- deliverable: assume full markdown report for full-report tasks, or review memo for diagnosis tasks
-- benchmark: use the strongest local sample available
-- company type: infer from materials; if unclear and valuation wording matters, use more cautious private-company wording
-- finish level: assume polished, not final
+- 篇幅目标：short / medium / full
+- 完成度目标：rough / working / polished / final
+
+建议默认值：
+
+- 完整公司报告 -> `full` + `polished`
+- 旧稿诊断 -> `medium` + `working`
+- 单章重写 -> `medium` + `polished`
+
+## 当 brief 不完整时的默认假设
+
+如果用户没说清楚：
+
+- 受众：默认内部研究使用
+- 交付物：完整报告任务默认完整 markdown 报告，诊断任务默认 review memo
+- benchmark：默认使用本地最强样本
+- 公司类型：从材料推断；若不清晰且估值措辞敏感，优先用更谨慎的非上市公司措辞
+- 完成度：默认 polished，不默认 final
+- 输出语言：默认中文
 
 ## Startup summary
 
-At run start, write a brief summary in `00_request.md` or `01_calibration.md` with:
+run 开始时，在 `00_request.md` 或 `01_calibration.md` 里写一个简短 summary，至少包括：
 
-- task type
-- audience
-- benchmark mode
-- company type
-- source-pack status
-- whether deep research is triggered
+- 任务类型
+- 受众
+- benchmark 模式
+- 公司类型
+- source-pack 状态
+- 是否触发 deeper research
+- 输出语言
 
-Keep it concise. The goal is alignment, not ceremony.
+保持简短。目标是对齐，不是增加仪式感。
